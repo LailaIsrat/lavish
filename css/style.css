@@ -1,0 +1,1781 @@
+/* css variable list */
+
+:root {
+    /*color purple*/
+    --color-purple: #6A1B9A;
+    /* color navy blue */
+    --color-navy-blue: #590D88;
+    /* color pink */
+    --color-pink: #EC5598;
+    /* color pink 2 */
+    --color-pink-2: #E6377A;
+    /* color white */
+    --color-white: #FFFFFF;
+    /* color semi black */
+    --color-semi-black: #222222;
+    /* color light blck */
+    --color-semi-ash: #777777;
+    /* color sky blue */
+    --color-sky-blue: #00BCD4;
+    /* color light red */
+    --light-red: #FF4641;
+    /* color orange */
+    --color-orange: #F79700;
+    /* cyan color */
+    --color-cyan: #4DB6AC;
+    /* color light chocolate */
+    --color-chocolate: #E3BDA8;
+    /* font family cursive */
+    --font-cursive: 'Niconne', cursive;
+    /* icons font 1 */
+    --font-icons-1: 'FontAwesome';
+    /* icons font 2 */
+    --font-icons-2: 'iconfont';
+    /* box-shadow hover */
+    --hover-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.1);
+    /* box-shadow primary */
+    --primary-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url(../fonts/ARLRDBD.ttf);
+}
+
+@font-face {
+    font-family: 'benalla';
+    src: url(../fonts/Benalla.ttf);
+}
+
+body {
+    background-color: white;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-weight: 400;
+    overflow-x: hidden;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    /* box-sizing: border-box; */
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+section {
+    margin-bottom: 80px;
+}
+
+
+/* =============================================== */
+/*              header section start               */
+/* =============================================== */
+/* -------------------Nav var style----------------- */
+.header-nav {
+    /* background-image: linear-gradient(90deg, #df488c, #df639b); */
+    background-image: linear-gradient(#d31166, #ed227b);
+}
+
+/* logo */
+.header-nav img {
+    height: 60px;
+    width: 140px;
+    margin-left: 90px !important;
+
+}
+
+/* nav items */
+.header-item {
+    margin-right: 20px;
+}
+
+.header-item li a {
+    /* margin-right: 20px; */
+    font-family: Arial;
+    font-size: 16px;
+    font-style: bold;
+    color: white;
+    padding-left: 20px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.header-item li a:hover {
+    background-color: #efc0d5;
+    border-radius: 12px;
+    font-size: 17px;
+    color: #ec1e79 !important;
+    font-weight: 600;
+
+}
+
+.nav-drop-item {
+    color: #ed4f96 !important;
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+
+.modal-item li a {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 26px;
+    font-style: 700;
+    padding-left: 20px !important;
+
+}
+
+.modal-item {
+    background: linear-gradient(to left, #efc0d5, #edb2cd);
+}
+
+.modal-body .navbar-nav li a {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 600 !important;
+    color: rgb(107, 106, 106) !important;
+}
+
+.modal-body .navbar-nav li a:hover {
+    font-size: 20px;
+    font-weight: 600 !important;
+    color: rgb(181, 149, 149) !important;
+}
+
+/* modal dropdown menu start */
+.modal-dropdown {
+    background: linear-gradient(to left, #e6dce0, #dbb0c3);
+    border: 4px solid #dbb0c3;
+    margin-left: 20% !important;
+}
+
+.modal-dropdown li a {
+    font-size: 18px !important;
+    color: rgb(66, 63, 63) !important;
+}
+
+.modal-dropdown li a:hover {
+    font-size: 18px !important;
+    color: rgb(209, 27, 27) !important;
+}
+
+.modal-dropdown-item {
+    background-color: linear-gradient(to left, #e6dce0, #ebadc9);
+}
+
+/* modal dropdown menu end */
+.modal-btn {
+    float: right;
+    /* border: 3px solid rgb(181, 71, 89); */
+    width: 100px;
+    height: 60px;
+}
+
+.modal-btn i {
+    color: white !important;
+}
+
+
+/* =============================================== */
+/*              header section end               */
+/* =============================================== */
+
+
+
+
+/* =============================================== */
+/*              carousel section start               */
+/* =============================================== */
+
+.carousel-inner img {
+    width: auto;
+    height: 550px;
+    /* opacity: 0.8; */
+}
+
+/* caption */
+.slider-caption {
+    margin-left: 36%;
+    margin-bottom: 100px;
+}
+
+.slider-caption h2 {
+    color: #c95a8c;
+    font-size: 38px !important;
+    font-family: benalla;
+    /* font-style: italic; */
+    font-weight: 800;
+}
+
+.slider-caption h3 {
+    /* color: #7f2b51; */
+    color: #6A1B9A;
+    font-style: italic;
+    font-size: 35px;
+    font-size: 600;
+}
+
+.slider-caption p {
+    color: #806d75;
+    font-style: italic;
+    font-size: 600;
+}
+
+.left-side-caption {
+    margin-right: 40%;
+    margin-bottom: 100px;
+}
+
+.left-side-caption h2 {
+    /* color: #c95a8c;
+    font-style: italic;
+    font-size: 600; */
+    color: #c95a8c;
+    font-size: 38px !important;
+    font-family: benalla;
+    /* font-style: italic; */
+    font-weight: 800;
+}
+
+.left-side-caption h3 {
+    /* color: #7f2b51;
+    font-style: italic;
+    font-size: 35px;
+    font-size: 600; */
+
+    color: #6A1B9A;
+    /* font-style: italic; */
+    font-size: 35px;
+    font-size: 600;
+}
+
+.left-side-caption p {
+    color: #afa2a7;
+    /* font-style: italic; */
+    /* font-size: 600; */
+}
+
+/* button */
+.xs-btn {
+    font-family: Arial;
+    font-size: 12px !important;
+    text-decoration: none !important;
+    overflow: hidden;
+    text-transform: uppercase;
+    background: #6A1B9A;
+    border-radius: 28px;
+    padding: 15px 17px;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.xs-btn:hover {
+    color: white !important;
+}
+
+.xs-btn span {
+    /* color: white!important; */
+    text-decoration: none !important;
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: #EC5598;
+    -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.xs-btn:hover span {
+    /* color: white!important; */
+    width: 335%;
+    height: 562.5px;
+}
+
+/* .xs-btn.round-btn {
+    border-radius: 25px;
+}
+
+.xs-btn.box-shadow-btn {
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.xs-btn.bg-color-pink span,
+.xs-btn.bg-color-sky-blue span,
+.xs-btn.bg-color-white span {
+    background-color: #6A1B9A;
+} */
+
+/* =============================================== 
+                                 carousel section end              
+                       =============================================== */
+
+
+/*===================================================
+								 our secrets section start
+                      ==================================================*/
+
+.beautypress-simple-text-with-img-section {
+    padding: 110px 0;
+}
+
+.beautypress-simple-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 100px 0 0;
+}
+
+.beautypress-simple-text p {
+    margin: 0 0 30px;
+    line-height: 1.8;
+}
+
+.beautypress-before-after.twentytwenty-container img {
+    width: 60%;
+}
+
+.beautypress-simple-text.beautypress-version-2 {
+    padding: 0 30px;
+}
+
+.beautypress-simple-text.beautypress-version-2 .beautypress-big-sub-heading h2 {
+    font-family: benalla;
+    font-weight: 900 !important;
+    font-size: 40px !important;
+    color: rgb(203, 70, 4);
+    font-size: 2.286em;
+}
+
+.beautypress-simple-text.beautypress-version-2 .beautypress-big-sub-heading h3 {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 2.657em;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.beautypress-simple-text.beautypress-version-2 .beautypress-big-sub-heading {
+    margin: 0 0 15px;
+}
+
+.beautypress-simple-text-content p {
+    color: #4d4c4c;
+    font-size: 1.143em;
+    margin: 0;
+}
+
+.beautypress-simple-text-content {
+    margin: 0 0 30px;
+}
+
+.beautypress-simple-text.beautypress-version-2 .beautypress-spilit-container {
+    display: flex;
+}
+
+.beautypress-simple-text.beautypress-version-2 .beautypress-spilit-container .beautypress-icon-with-text {
+    flex: 1;
+}
+
+.beautypress-svg-ico {
+    height: 70px;
+    margin: 0 0 30px;
+}
+
+.beautypress-simple-text.beautypress-version-2 .beautypress-svg-ico {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.beautypress-svg-ico img {
+    max-height: 100%;
+}
+
+.beautypress-icon-with-text h3 {
+    margin: 0 0 15px;
+    color: #b65e0bda;
+    /* font-family: Arial; */
+    font-weight: 600;
+    font-size: 1.471em;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+}
+
+.beautypress-icon-with-text p {
+    margin: 0;
+    color: #4d4c4c;
+    line-height: inherit;
+}
+
+
+/*===================================================
+                                        our secrets section start
+                            ==================================================*/
+
+/*======================================================================================
+								6. Get Appoinment start
+===============================================================================*/
+.beautypress-booking-section {
+    background-image: url(../image/treat/get_appoinment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.beautypress-booking-text-wraper {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.beautypress-padding-bottom {
+    padding: 0 0 120px;
+}
+
+.beautypress-section-headinig {
+    padding: 120px 0 80px 0;
+    text-align: center;
+}
+
+.beautypress-section-headinig h2 {
+    margin: 0 0 10px;
+    color: #EC5598;
+    font-family: benalla;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2.843em;
+}
+
+.beautypress-section-headinig h3 {
+    margin: 0;
+    color: #8d8888;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 2.757em;
+    letter-spacing: -2px;
+}
+
+.beautypress-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border: 10px solid #6A1B9A;
+    z-index: 1;
+}
+
+.beautypress-booking-text-wraper .beautypress-border.beautypress-version-3 {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    height: auto;
+}
+
+.beautypress-border.beautypress-version-3 {
+    position: relative;
+    border-right: 0;
+    border-color: #6A1B9A !important;
+}
+
+.beautypress-border.beautypress-version-3:before,
+.beautypress-border.beautypress-version-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 43px;
+    width: 43px;
+    border-right: 10px solid;
+
+}
+
+.beautypress-border.beautypress-version-3:after {
+    top: initial;
+    bottom: 0;
+}
+
+.beautypress-border.beautypress-version-3,
+.beautypress-border.beautypress-version-3:before,
+.beautypress-border.beautypress-version-3:after {
+    border-color: #6A1B9A;
+}
+
+
+.beautypress-booking-text ul li {
+    font-size: 1.2em;
+    color: #4d4c4c;
+}
+
+.beautypress-booking-text ul li:last-child {
+    margin: 0;
+    color: #EC5598;
+}
+
+.beautypress-booking-text {
+    height: 100%;
+    padding: 55px 0 55px 50px;
+    width: calc(100% + 30px);
+}
+
+.beautypress-booking-text h2 {
+    margin: 0 0 28px;
+    color: #6A1B9A;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.429em;
+}
+
+.beautypress-booking-text h3 {
+    margin: 0 0 40px;
+    font-size: 2.143em;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #524e4e;
+}
+
+.beautypress-icon-bg-text {
+    position: relative;
+    padding: 0 0 40px;
+}
+
+.beautypress-icon-bg-text:before {
+    position: absolute;
+    content: "\e908";
+    top: -21px;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    opacity: .3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    color: #6A1B9A;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* font-size: 13em; */
+    font-size: 9em;
+    z-index: -1;
+}
+
+.beautypress-icon-bg-text p {
+    color: rgb(86, 84, 84);
+}
+
+/* ************************appointment form************ */
+
+.beautypress-booking-form-wraper h2 {
+    margin: 0 0 30px;
+    color: #222222;
+    font-weight: 600;
+    font-size: 1.857em;
+}
+
+.beautypress-booking-form-wraper select {
+    background-color: #FFFFFF !important;
+    color: #777777 !important;
+    width: 100% !important;
+    height: 60px !important;
+    border: 2px solid #E2E2E2 !important;
+    font-size: 1em !important;
+    padding: 0 21px;
+    border-radius: 0;
+}
+
+.beautypress-booking-form-wraper select:first-child {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.beautypress-booking-form-wraper .beautypress-select .input-group {
+    position: relative;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.beautypress-booking-form-wraper .beautypress-select .input-group:before {
+    position: absolute;
+    content: "\f107";
+    top: 50%;
+    right: 0;
+    width: 60px;
+    height: calc(100% - 4px);
+    border-left: 2px solid #DEDEDE;
+    color: #E2B9A3;
+    font-size: 1.429em;
+    font-family: Arial;
+    /* font-family: var(--font-icons-1); */
+    z-index: 9;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    pointer-events: none;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.beautypress-booking-form-wraper .beautypress-select .input-group.actives:before {
+    background-color: #590D88;
+    border-color: #590D88;
+    color: #FFFFFF;
+}
+
+.beautypress-booking-form-wraper .beautypress-select .input-group.actives,
+.beautypress-booking-form-wraper .form-control:focus {
+    box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.1);
+}
+
+.beautypress-booking-form-wraper input:not([type="submit"]),
+.beautypress-booking-form-wraper textarea {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: 2px solid #E3E3E3;
+    border-radius: 0;
+    background-color: #FFFFFF;
+    padding: 0 21px;
+    font-size: 1em !important;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.beautypress-booking-form-wraper textarea {
+    height: 130px;
+    resize: none;
+    padding: 20px;
+    border-radius: 0;
+}
+
+.beautypress-booking-form-wraper textarea:focus,
+.beautypress-booking-form-wraper input:focus,
+.beautypress-booking-form-wraper select:focus {
+    border-color: #6A1B9A !important;
+}
+
+.beautypress-booking-form-wraper .form-group,
+.beautypress-booking-form-wraper .beautypress-select {
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.beautypress-booking-form-wraper .form-group.massage-gropu {
+    margin: 0 0 30px;
+}
+
+.beautypress-booking-form-wraper .form-group.button-group {
+    margin: 0;
+}
+
+.beautypress-booking-form-wraper .beautypress-spilit-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)(2);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+
+
+.beautypress-booking-form-wraper input[type="submit"] {
+    box-shadow: 0px 8px 16px 0px rgba(140, 140, 140, 0.157);
+    background-color: #EC5598;
+    text-transform: uppercase;
+    height: 50px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 25px;
+    padding: 15px 46px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.beautypress-booking-form-wraper input[type="submit"]:hover {
+    background-color: #6A1B9A;
+}
+
+.beautypress-booking-form-wraper input[type="number"]::-webkit-inner-spin-button,
+.beautypress-booking-form-wraper input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.beautypress-service-and-date {
+    margin: 0 0 24px;
+}
+
+/*======================================================================================
+								 Get Appoinment end
+===============================================================================*/
+
+
+
+
+
+/*======================================================================================
+							 Our Service section start
+===============================================================================*/
+
+
+.beautypress-tab .beautypress-top-nav {
+    border: 0;
+    padding: 0 0 50px;
+    display: flex;
+}
+
+.beautypress-tab .nav.nav-tabs.beautypress-top-nav li {
+    flex: 1;
+    margin: 0 30px 0 0;
+}
+
+.beautypress-tab .nav.nav-tabs.beautypress-top-nav li:last-child {
+    margin: 0;
+}
+
+.beautypress-tab .beautypress-top-nav li,
+.beautypress-tab .beautypress-top-nav li a {
+    min-height: 150px;
+}
+
+.beautypress-tab .beautypress-top-nav li a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    background-color: #F5f5f5;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.beautypress-tab .beautypress-top-nav li.active a,
+.beautypress-tab .beautypress-top-nav li a:hover {
+    box-shadow: var(--hover-shadow);
+    background-color: var(--color-white);
+}
+
+.beautypress-tab .beautypress-top-nav li a i {
+    margin: 0 0 20px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    color: var(--color-purple);
+    font-size: 2.857em;
+}
+
+.beautypress-tab .beautypress-top-nav li a:hover i,
+.beautypress-tab .beautypress-top-nav li.active a i {
+    color: var(--color-pink);
+}
+
+.beautypress-tab .beautypress-top-nav li a:before,
+.beautypress-tab .beautypress-top-nav li a:after {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    border: 2px solid var(--color-pink);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.beautypress-tab .beautypress-top-nav li a:before {
+    top: 0;
+    left: 0;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.beautypress-tab .beautypress-top-nav li a:after {
+    bottom: 0;
+    right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+
+.beautypress-tab .beautypress-top-nav li.active a:before,
+.beautypress-tab .beautypress-top-nav li.active a:after,
+.beautypress-tab .beautypress-top-nav li a:hover:before,
+.beautypress-tab .beautypress-top-nav li a:hover:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.beautypress-tab .beautypress-top-nav li a span {
+    color: #999999;
+    font-weight: 500;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.beautypress-tab .beautypress-top-nav li.active a span,
+.beautypress-tab .beautypress-top-nav li a:hover span {
+    color: #666666;
+}
+
+.beautypress-tab .tab-content .tab-pane .tabbable {
+    display: flex;
+    width: 100%;
+}
+
+.beautypress-tab .tab-pane .tabbable .tab-content {
+    width: calc(75% - 15px);
+}
+
+.beautypress-tab .beautypress-side-nav {
+    padding: 30px 20px 30px 0;
+    box-shadow: var(--hover-shadow);
+    background-color: var(--color-white);
+    border: 0;
+    display: block;
+    width: calc(25% - 15px);
+    margin: 0 30px 0 0;
+}
+
+.beautypress-tab .beautypress-side-nav li {
+    display: block;
+    width: 100%;
+    margin: 16px 0 0 30px;
+}
+
+.beautypress-tab .beautypress-side-nav li:last-child {
+    border-bottom: 0;
+    margin: 16px 0 0 30px;
+    padding: 0;
+}
+
+.beautypress-tab .beautypress-side-nav li:last-child a {
+    padding: 0;
+}
+
+.beautypress-tab .beautypress-side-nav li:last-child a:after {
+    display: none;
+}
+
+.beautypress-tab .beautypress-side-nav li a {
+    display: block;
+    width: 100%;
+    color: #777777;
+    text-transform: capitalize;
+    font-size: 1.143em;
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    padding: 0 0 16px;
+}
+
+.beautypress-tab .beautypress-side-nav li a:hover,
+.beautypress-tab .beautypress-side-nav li.active a {
+    color: #EC5598;
+}
+
+.beautypress-tab .beautypress-side-nav li a:before {
+    position: absolute;
+    content: "";
+    left: -30px;
+    top: 50%;
+    height: 0;
+    width: 4px;
+    background-color: #EC5598;
+    -webkit-transform: translateY(-60%);
+    transform: translateY(-60%);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.beautypress-tab .beautypress-side-nav li a:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px dashed #C3C3C3;
+    width: calc(100% - 40px);
+}
+
+.beautypress-tab .beautypress-side-nav li a:hover:before,
+.beautypress-tab .beautypress-side-nav li.active a:before {
+    height: calc(100% + 10px);
+}
+
+.beautypress-tab .beautypress-spilit-container {
+    display: flex;
+    height: 100%;
+}
+
+.beautypress-tab-text-content {
+    -ms-flex-item-align: center;
+    align-self: center;
+    padding: 0 47px 0 0;
+    width: calc(55.56666% - 15px);
+}
+
+.beautypress-tab .beautypress-tab-content {
+    background-color: var(--color-white);
+    box-shadow: var(--hover-shadow);
+    height: 100%;
+}
+
+.beautypress-tab .beautypress-tab-image {
+    position: relative;
+    width: calc(44.444444% - 15px);
+    margin: 0 30px 0 0;
+}
+
+.beautypress-tab .beautypress-tab-image-content {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.beautypress-tab .beautypress-tab-image img {
+    width: 100%;
+}
+
+.beautypress-tab .beautypress-tab-text-content h3 {
+    margin: 0 0 40px;
+    color: #444444;
+    font-weight: 500;
+    font-size: 2.143em;
+    text-transform: capitalize;
+    line-height: inherit;
+}
+
+.beautypress-tab .beautypress-tab-text-content p {
+    margin: 0 0 30px;
+    color: #999999;
+}
+
+.beautypress-iocn-btn.full-round-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: var(--primary-shadow);
+    color: var(--color-white);
+    font-size: 1.143em;
+    background-color: var(--color-semi-black);
+    position: relative;
+    transition: all .9s ease;
+}
+
+.beautypress-iocn-btn.full-round-btn.bg-color-purple {
+    background-color: var(--color-purple);
+}
+
+.beautypress-btn-wraper a {
+    margin: 0 20px 0 0;
+}
+
+.beautypress-btn-wraper a:last-child {
+    margin: 0;
+}
+
+/* service icon */
+.service-icon{
+    height: 20%;
+    width: 20%;
+}
+
+/*======================================================================================
+							 Our Service section end
+===============================================================================*/
+
+/*===================================================
+                                        Retreat section start
+                            ==================================================*/
+
+.beautypress-call-to-action-section {
+    overflow: hidden;
+    background-image: url(../image/treat/call-to-action.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.beautypress-bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.beautypress-call-to-action-content {
+    text-align: center;
+    padding: 200px 0;
+}
+
+.beautypress-content-headinig h2 {
+    margin: 0 0 20px;
+    font-family: benalla;
+    font-style: italic;
+    font-weight: 800 !important;
+    color: #540428;
+    font-size: 3.6em;
+}
+
+.beautypress-content-headinig h3 {
+    margin: 0;
+
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 3.571em;
+    letter-spacing: -2px;
+}
+
+.beautypress-content-headinig {
+    margin: 0 0 30px;
+}
+
+
+
+/*===================================================
+                                        Retreat section end
+                            ==================================================*/
+
+
+/*======================================================================================
+								6.Expert Beauticians start
+===============================================================================*/
+
+
+.beautypress-team-section {
+    position: relative;
+    background-image: url(../image/treat/icons-bg-2.png);
+    background-repeat: no-repeat;
+
+}
+
+.beautypress-single-team {
+    /* width: 60% !important; */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.beautypress-team-content {
+    position: absolute;
+    bottom: -95px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.beautypress-team-person-details {
+    position: relative;
+    /* margin: 0; */
+}
+
+.beautypress-team-person-details h3 {
+    /* margin: 0; */
+    font-weight: 500;
+    font-size: 1.429em;
+}
+
+.beautypress-team-person-details h4 {
+    /* margin: 0; */
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.beautypress-social-list li {
+    display: inline-block;
+    margin: 0 10px 8px 0;
+}
+
+.beautypress-social-list li:last-child {
+    margin: 0 0 10px 0;
+}
+
+.beautypress-social-list li a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    background-color: #222222;
+    color: #FFFFFF;
+    border-radius: 100%;
+    font-size: 1em;
+}
+
+.beautypress-social-list li a i {
+    line-height: inherit;
+}
+
+.beautypress-facebook {
+    background-color: #3B5999 !important;
+}
+
+.beautypress-twitter {
+    background-color: #55ACEE !important;
+}
+
+.beautypress-pinterest {
+    background-color: #BD081C !important;
+}
+
+.beautypress-dribbble {
+    background-color: #EA4C89 !important;
+}
+
+.beautypress-instagram {
+    background-color: #E4405F !important;
+}
+
+.beautypress-padding-bottom {
+    padding: 0 0 120px;
+}
+
+.beautypress-section-headinig {
+    padding: 120px 0 80px 0;
+    text-align: center;
+}
+
+.beautypress-single-team .beautypress-social-list li a:hover {
+    background-color: #5b5757 !important;
+}
+
+.beautypress-team-person-socail-details {
+    opacity: 0;
+    transition: all .4s ease;
+}
+
+.beautypress-single-team:hover .beautypress-team-content {
+    bottom: 20px;
+}
+
+.beautypress-single-team:hover .beautypress-team-person-socail-details {
+    opacity: 1;
+}
+
+.beautypress-single-team:hover {
+    box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.1);
+}
+
+.beautypress-single-team:after {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.beautypress-single-team:hover:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.beautypress-single-team:hover:before {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.beautypress-single-team img {
+    width: 100%;
+}
+
+.beautypress-single-team .beautypress-social-list li a {
+    height: 35px;
+    width: 35px;
+    font-size: 0.875em;
+}
+
+
+.beautypress-purple-overlay:before,
+.beautypress-pink-overlay:before,
+.beautypress-sky-blue-overlay:before,
+.beautypress-single-team:before,
+.beautypress-single-team:after,
+.beautypress-white-overlay:before,
+.beautypress-chocolate-overlay:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.beautypress-single-team.beautypress-purple-overlay:before {
+    background-image: -webkit-linear-gradient(90deg, rgb(211, 16, 39) 0%, rgb(125, 0, 254) 0%, rgba(255, 255, 255, 0) 50%);
+    background-image: -ms-linear-gradient(90deg, rgb(211, 16, 39) 0%, rgb(125, 0, 254) 0%, rgba(255, 255, 255, 0) 50%);
+}
+
+.beautypress-single-team.beautypress-pink-overlay:before {
+    background-image: -webkit-linear-gradient(90deg, rgb(125, 0, 254) 0%, rgb(236, 85, 152) 0%, rgba(255, 255, 255, 0) 50%);
+    background-image: -ms-linear-gradient(90deg, rgb(125, 0, 254) 0%, rgb(236, 85, 152) 0%, rgba(255, 255, 255, 0) 50%);
+}
+
+.beautypress-single-team.beautypress-sky-blue-overlay:before {
+    background-image: -webkit-linear-gradient(90deg, rgb(236, 85, 152) 0%, rgb(0, 188, 212) 0%, rgba(255, 255, 255, 0) 50%);
+    background-image: -ms-linear-gradient(90deg, rgb(236, 85, 152) 0%, rgb(0, 188, 212) 0%, rgba(255, 255, 255, 0) 50%);
+}
+
+.beautypress-single-team.beautypress-purple-overlay:after {
+    background-image: -webkit-linear-gradient(90deg, rgb(211, 16, 39) 0%, rgb(125, 0, 254) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(211, 16, 39) 0%, rgb(125, 0, 254) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.beautypress-single-team.beautypress-pink-overlay:after {
+    background-image: -webkit-linear-gradient(90deg, rgb(125, 0, 254) 0%, rgb(236, 85, 152) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(125, 0, 254) 0%, rgb(236, 85, 152) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.beautypress-single-team.beautypress-sky-blue-overlay:after {
+    background-image: -webkit-linear-gradient(90deg, rgb(236, 85, 152) 0%, rgb(0, 188, 212) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(236, 85, 152) 0%, rgb(0, 188, 212) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* button */
+.profile-btn {
+    background: linear-gradient(to right, #ed5425, #f14510);
+    border: none;
+    color: white;
+    font-style: italic;
+    border-radius: 4em 1em 4em / 0.3em 3em;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    margin: 18px 2px;
+    opacity: 0.8;
+    transition: 0.2s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.profile-btn:hover {
+    opacity: 1;
+    background-color: #b84320;
+    color: white;
+    font-size: 18px;
+}
+
+/*======================================================================================
+								6.Expert Beauticians end
+===============================================================================*/
+
+/* =============================================== */
+/*              footer section start               */
+/* =============================================== */
+.footer-section {
+    position: relative;
+    /* padding: 133px 0 0 0; */
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    background-size: cover;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 829.4" preserveAspectRatio="none"><path fill= "rgb(236, 30, 121)" fill-opacity= "0.5" fill-rule= "evenodd" d="M0,10266s198.4,114,387,5,497.966-214.4,774-170,689.47,140,759,169v650H0v-654Z" transform="translate(0 -10090.6)"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    /* padding-top: calc(100% * 1 / 10); */
+}
+
+.footer-section:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 829.4" preserveAspectRatio="none"><path fill= "rgb(213, 83, 142)" fill-opacity= "0.5" fill-rule= "evenodd" d="M0,10095s570.853,396,1495,58c0,0,271.65-105.1,425-92v863H0v-829Z" transform="translate(0 -10059.8)"/></svg>');
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    margin: 0 0 40px;
+
+}
+
+.footer-logo {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 10% !important;
+    width: 10% !important;
+}
+
+.footer-logo a {
+    display: inline-block;
+}
+
+.subscribe-wraper {
+    width: 50%;
+    margin: 0 auto 100px auto;
+    text-align: center;
+}
+
+.subscribe {
+    height: 70px;
+    position: relative;
+}
+
+.subscribe-wraper input:not([type="submit"]) {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #F0F0F0;
+    background-color: #FFFFFF;
+    padding: 0 31px;
+    border-radius: 80px;
+}
+
+.subscribe-wraper input[type="submit"] {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 50px;
+    border: 0;
+    border-radius: 80px;
+    background-color: #df6c9a;
+    padding: 0 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.subscribe-wraper input[type="submit"]:hover {
+    background-color: #E6377A !important;
+}
+
+.footer-section.version-3 .subscribe-wraper input[type="submit"]:hover {
+    background-color: #FF4641 !important;
+}
+
+.subscribe-wraper h3 {
+    margin: 0 0 30px;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.857em;
+}
+
+.single-footer p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.single-footer-group p {
+    margin: 0;
+}
+
+.copyright-text {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.copyright-text p {
+    color: #FFFFFF;
+    font-size: 1.13em;
+}
+
+.subscribe label {
+    margin: 10px 0 0;
+    color: red !important;
+}
+
+.arrow-indicator a {
+    border-radius: 50px 50px 50px;
+    background-color: rgb(245, 107, 82);
+    padding: 18px 18px 8px 18px;
+}
+
+.arrow-indicator a:hover {
+    background-color: rgb(233, 79, 52);
+    border-radius: 60px 60px 60px;
+}
+
+/* =============================================== */
+/*              footer section end              */
+/* =============================================== */
+
+
+
+
+
+/* media query */
+@media screen and (min-width: 992px) {
+    .modal-btn {
+        display: none;
+    }
+
+    .footer-logo img {
+        height: 18% !important;
+        width: 18% !important;
+    }
+
+}
+
+
+@media screen and (max-width: 492px) {
+
+
+    /* header */
+    .header-nav img {
+        height: 40px;
+        width: 100px;
+        margin-left: 20px !important;
+    }
+
+
+    .modal-btn i {
+        font-size: 18px !important;
+        color: #e6dce0 !important;
+    }
+
+
+    /* carosal */
+    .carousel-inner img {
+        height: 320px !important;
+    }
+
+    .slider-caption {
+        margin-left: 29% !important;
+    }
+
+    .slider-caption h2 {
+        font-size: 13px !important;
+    }
+
+    .slider-caption h3 {
+        font-size: 15px !important;
+    }
+
+    .slider-caption p {
+        font-size: 10px !important;
+    }
+
+    /* left side caption */
+
+    .left-side-caption {
+        margin-right: 29% !important;
+    }
+
+    .left-side-caption h2 {
+        font-size: 13px !important;
+    }
+
+    .left-side-caption h3 {
+        font-size: 15px !important;
+    }
+
+    .left-side-caption p {
+        font-size: 10px !important;
+    }
+
+    .xs-btn {
+        font-size: 9px !important;
+    }
+
+    /* appointment form */
+    /* .beautypress-booking-text h2 {
+    margin: 0 0 28px;
+    color: #6A1B9A;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.429em;
+} */
+
+    .beautypress-booking-text h3 {
+        /* margin: 0 0 40px; */
+        font-size: 1.523em;
+
+    }
+
+    .beautypress-booking-text ul li {
+        font-size: 0.9em;
+        color: #792ca9;
+    }
+
+    /* Retreat section */
+    .beautypress-content-headinig h2 {
+        margin: 0 0 20px !important;
+        font-size: 1.8em !important;
+    }
+
+    .beautypress-content-headinig h3 {
+        font-size: 1.7em !important;
+    }
+
+    /* our team */
+    /* .beautypress-single-team {
+        margin-left: 10px !important;
+        margin-bottom: 20px !important;
+        width: 60% !important;
+    } */
+
+    /* footer */
+    .footer-logo img {
+        margin-top: 30px !important;
+    }
+
+    .subscribe-wraper h3 {
+        font-size: 1.1em !important;
+    }
+
+
+    .subscribe-wraper input:not([type="submit"]) {
+        height: 50px;
+        width: 100%;
+        float: left !important;
+        margin-left: 0 !important;
+        padding: 0 10px;
+        border-radius: 20px;
+    }
+
+    .subscribe-wraper input[type="submit"] {
+        position: absolute;
+        right: 10px;
+        top: 38%;
+        height: 32px;
+        width: 100px !important;
+        font-size: 12px !important;
+        border-radius: 20px;
+        padding: 0 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+    /* logo */
+    .header-nav img {
+        height: 50px;
+        width: 100px;
+
+    }
+
+    /* carosal */
+    .carousel-inner img {
+        height: 350px;
+    }
+
+    /* for right side caption */
+    .slider-caption {
+        margin-left: 35%;
+        font-weight: 600 !important;
+        top: 10% !important;
+    }
+
+    .slider-caption h2 {
+        font-size: 25px !important;
+
+    }
+
+    .slider-caption h3 {
+        font-size: 23px;
+    }
+
+    .slider-caption p {
+        font-size: 12px;
+    }
+
+
+    /* for left side caption */
+    .left-side-caption {
+        top: 10% !important;
+        margin-right: 35%;
+    }
+
+    .left-side-caption h2 {
+        font-size: 25px !important;
+
+    }
+
+    .left-side-caption h3 {
+        font-size: 23px;
+    }
+
+    .left-side-caption p {
+        font-size: 12px;
+    }
+
+    .xs-btn {
+        font-size: 12px;
+        font-style: italic;
+        border-radius: 22px;
+        padding: 11px;
+    }
+
+
+    /* Retreat section */
+    .beautypress-content-headinig h2 {
+        /* margin: 0 0 20px; */
+        font-weight: 800 !important;
+
+        font-size: 2.5em;
+    }
+
+    .beautypress-content-headinig h3 {
+        margin: 0;
+        font-weight: 600;
+        font-size: 2.571em;
+    }
+
+    /* our team */
+    .beautypress-single-team {
+        margin-left: 10px !important;
+        margin-bottom: 20px !important;
+        /* width: 90% !important; */
+    }
+
+
+    /* .beautypress-team-person-details h3 {
+        
+        margin-top: 30px!important;
+        font-size: 1.1em!important;
+    }
+    
+    .beautypress-team-person-details h4 {
+       
+        font-weight: 400;
+        font-size: 1em;
+        text-transform: capitalize;
+    } */
+    /* .beautypress-single-team img {
+        width: 150%;
+    } */
+
+    /* footer style */
+    .subscribe-wraper {
+        width: 80%;
+        text-align: center;
+        margin-left: 50px !important;
+    }
+
+    .footer-logo img {
+        height: 30% !important;
+        width: 30% !important;
+    }
+
+    .subscribe-wraper h3 {
+        margin: 10px 0 30px;
+        font-weight: 400;
+        font-size: 1.3em;
+    }
+
+}

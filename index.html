@@ -1,0 +1,2270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lavish Bootstrap 5</title>
+
+    <!-- bootstrap 5 link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--  stylesheet link-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/03df3c4356.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Xs-icon kit -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.xscode.com/xs-icons/1.0.0/xs-icons.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- Nav bar start -->
+      <nav class="navbar navbar-expand-lg header-nav">
+        <div class="container-fluid">
+          <!-- <div style="background-color: #ed227b!important;"clas="col-md-6 col-sm-6 col-xl-5 col-lg-5 heading-logo"> -->
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="image/lavish beauty corner bold-01.png"
+              alt="lavish logo"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <!-- </div> -->
+
+          <!-- <div style="background-color: #d31166!important;"clas="col-md-6 col-sm-6 col-xl-5 col-lg-5 heading-logo"> -->
+          <!-- Button trigger modal start-->
+          <button
+            type="button"
+            class="btn modal-btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <!-- Button trigger modal end-->
+
+          <div
+            class="collapse navbar-collapse justify-content-end navbar-menu"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav header-item">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Service
+                </a>
+                <ul
+                  class="dropdown-menu modal-item"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#">Action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#"
+                      >Another action</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#"
+                      >Something else here</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- </div> -->
+      </nav>
+      <!-- Nav bar end -->
+    </header>
+
+    <!-- Nav bar Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-scrollable modal-fullscreen"
+        style="max-width: 50%; margin-left: 0"
+      >
+        <div class="modal-content modal-item">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Service
+                </a>
+                <ul
+                  class="dropdown-menu modal-dropdown"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li class="modal-dropdown-item">
+                    <a class="dropdown-item nav-drop-item" href="#">Action</a>
+                  </li>
+                  <li class="modal-dropdown-item">
+                    <a class="dropdown-item nav-drop-item" href="#"
+                      >Another action</a
+                    >
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#"
+                      >Something else here</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <!--*********************** Carousel part start***************** -->
+      <section>
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img
+                src="image/slide_final/1stbanner.png"
+                class="d-block w-100"
+                alt="lady with pink rose in head"
+              />
+
+              <!-- <div class="carousel-caption slider-caption"> -->
+              <div class="carousel-caption left-side-caption">
+                <h2>Beautiful Face</h2>
+                <h3>Healthy You</h3>
+                <p>
+                  Allow our team of beauty specialists to help you prepare for
+                  your wedding and enhance your special.
+                </p>
+                <a href="#" class="xs-btn">Get Appointment <span></span></a>
+              </div>
+            </div>
+
+            <!-- 2nd slide -->
+            <div class="carousel-item" data-bs-interval="1500">
+              <img
+                src="image/slide_final/2ndbanner.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption left-side-caption">
+                <h2>Beautiful Face</h2>
+                <h3>Healthy You</h3>
+                <p>
+                  Allow our team of beauty specialists to help you prepare for
+                  your wedding and enhance your special.
+                </p>
+                <a href="#" class="xs-btn">Get Appointment <span></span></a>
+              </div>
+            </div>
+
+            <!-- 3rd slide -->
+            <div class="carousel-item" data-bs-interval="1500">
+              <img
+                src="image/slide_final/3rd--banner.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption left-side-caption">
+                <h2>Beautiful Face</h2>
+                <h3>Healthy You</h3>
+                <p>
+                  Allow our team of beauty specialists to help you prepare for
+                  your wedding and enhance your special.
+                </p>
+                <a href="#" class="xs-btn">Get Appointment <span></span></a>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!--*********************** Carousel part end***************** -->
+
+      <!--*********************** Secret of beautyPress section start***************** -->
+      <section
+        style="background-color: #eef2f5"
+        class="beautypress-simple-text-with-img-section"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xl-6 col-lg-6">
+              <div class="twentytwenty-container beautypress-before-after">
+                <img
+                  style="
+                    margin-left: 70px;
+                    height: 400px !important;
+                    width: 420px !important;
+                  "
+                  src="image/treat/240_F_73623488_iBqf347ub0iMLLnW9EY0w81bYfOJjZoI.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+              <div class="beautypress-simple-text beautypress-version-2">
+                <div class="beautypress-big-sub-heading">
+                  <h2>Secret of</h2>
+                  <h3>BeautyPress</h3>
+                </div>
+                <div class="beautypress-simple-text-content">
+                  <p>
+                    After owning two successful salon locations they decided to
+                    move their passion to the small town of Gainesville.
+                  </p>
+                </div>
+                <div class="beautypress-spilit-container">
+                  <div class="beautypress-icon-with-text">
+                    <div class="beautypress-svg-ico">
+                      <img
+                        src="https://demo.xpeedstudio.com/html/beautypress/img/cosmetics.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h3>Reflexology</h3>
+                    <p>
+                      Stimulates the movement of energy by applying pressure.
+                    </p>
+                  </div>
+                  <div class="beautypress-icon-with-text">
+                    <div class="beautypress-svg-ico">
+                      <img
+                        src="https://demo.xpeedstudio.com/html/beautypress/img/nail.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h3>Nail Therapy</h3>
+                    <p>
+                      Wraps are intended to tone and tighten skin while helping.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--*********************** Secret of beautyPress section end***************** -->
+
+      <!--*********************** "Get Appoinment form" section start***************** -->
+      <section
+        class="beautypress-booking-section beautypress-bg beautypress-padding-bottom parallax-bg"
+        data-parallax="scroll"
+      >
+        <div class="container">
+          <div class="beautypress-section-headinig">
+            <h2>We are awesome</h2>
+            <h3>Get Appoinment</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+              <div class="beautypress-booking-text-wraper">
+                <div
+                  class="beautypress-booking-content-text beautypress-border beautypress-version-3"
+                >
+                  <div class="beautypress-booking-text">
+                    <h2>Time Shedule</h2>
+                    <h3>Working Hours</h3>
+                    <div class="beautypress-icon-bg-text">
+                      <p>
+                        A collection of textile samples lay spread out on the
+                        table - Samsa was a travelling salesman - and above it
+                        there hung a picture that he had recently cut out .
+                      </p>
+                    </div>
+                    <ul>
+                      <li>Mon - Wed : 8:00am - 06:00pm</li>
+                      <li>Thu - Sat : 10:00am - 10:00pm</li>
+                      <li>Sunday: Close</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+              <div class="beautypress-booking-form-wraper">
+                <form action="#" method="POST" id="beautypress-booking-form">
+                  <input
+                    type="hidden"
+                    name="action"
+                    value="send_appointment_form"
+                  />
+                  <div class="alert hidden" id="beautypress-form-msg"></div>
+                  <div class="beautypress-service-and-date">
+                    <h2>Service and Date</h2>
+                    <div class="beautypress-select">
+                      <div class="input-group">
+                        <select
+                          name="appointment-service"
+                          id="appointment-service"
+                          class="form-control form-select"
+                        >
+                          <option value="">Select your service</option>
+                          <option value="Oil Massage">
+                            Oil Massage ($59.00)
+                          </option>
+                          <option value="Relax Day">Relax Day ($199.00)</option>
+                          <option value="Spa & Beauty">
+                            Spa & Beauty ($299.00)
+                          </option>
+                          <option value="Relax Day (for Two)">
+                            Relax Day (for Two $399.00)
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="beautypress-spilit-container">
+                      <div class="beautypress-date-select beautypress-select">
+                        <div class="input-group" id="datepicker">
+                          <input
+                            type="date"
+                            id="appointment-date"
+                            class="form-control"
+                            name="appointment-date"
+                            placeholder="Date Shedule"
+                          />
+                        </div>
+                      </div>
+
+                      <!-- ******************* -->
+
+                      <div class="beautypress-select">
+                        <div class="input-group">
+                          <select
+                            name="appointment-time"
+                            id="appointment-time"
+                            class="form-control form-select"
+                          >
+                            <option value="">Time Shedule</option>
+                            <option value="09:00 AM">09:00 AM</option>
+                            <option value="09:30 AM">09:30 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="10:30 AM">10:30 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="11:30 AM">11:30 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="12:30 PM">12:30 PM</option>
+                            <option value="01:00 PM">01:00 PM</option>
+                            <option value="01:30 PM">01:30 PM</option>
+                            <option value="02:00 PM">02:00 PM</option>
+                            <option value="02:30 PM">02:30 PM</option>
+                            <option value="03:00 PM">03:00 PM</option>
+                            <option value="03:30 PM">03:30 PM</option>
+                            <option value="04:00 PM">04:00 PM</option>
+                            <option value="04:30 PM">04:30 PM</option>
+                            <option value="05:00 PM">05:00 PM</option>
+                            <option value="05:30 PM">05:30 PM</option>
+                            <option value="06:00 PM">06:00 PM</option>
+                            <option value="06:30 PM">06:30 PM</option>
+                            <option value="07:00 PM">07:00 PM</option>
+                            <option value="07:30 PM">07:30 PM</option>
+                            <option value="08:00 PM">08:00 PM</option>
+                            <option value="08:30 PM">08:30 PM</option>
+                            <option value="09:00 PM">09:00 PM</option>
+                            <option value="09:30 PM">09:30 PM</option>
+                            <option value="10:00 PM">10:00 PM</option>
+                            <option value="10:30 PM">10:30 PM</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="beautypress-personal-information">
+                    <h2>Personal Information</h2>
+                    <div class="beautypress-spilit-container">
+                      <div class="form-group first-name-group">
+                        <input
+                          type="text"
+                          name="first-name"
+                          class="form-control"
+                          id="first-name"
+                          placeholder="First Name...."
+                        />
+                      </div>
+                      <div class="form-group email-group">
+                        <input
+                          type="email"
+                          name="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Email Address...."
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group phone-group">
+                      <input
+                        type="number"
+                        name="phone"
+                        class="form-control"
+                        id="phone"
+                        placeholder="Phone Number...."
+                      />
+                    </div>
+                    <div class="form-group massage-gropu">
+                      <textarea
+                        class="form-control"
+                        rows="5"
+                        id="appointment-comment"
+                        placeholder="Enter Message...."
+                      ></textarea>
+                    </div>
+                    <div class="form-group button-group">
+                      <input
+                        type="submit"
+                        name="submit"
+                        value="submit"
+                        id="beautypress-submit"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--*********************** "Get Appoinment form" section end***************** -->
+
+      <!--*********************** "Our Services" section start***************** -->
+      <section
+        id="service"
+        class="beautypress-service-section beautypress-padding-bottom"
+      >
+        <div class="container">
+          <div class="beautypress-section-headinig">
+            <h2>We are awesome</h2>
+            <h3>Our Services</h3>
+          </div>
+          <div class="beautypress-tab">
+            <div class="tabbable">
+              <ul class="nav nav-tabs beautypress-top-nav">
+                <li class="active">
+                  <a href="#makeup" data-bs-toggle="tab"
+                    ><img src="image/icon/make-up.svg" alt="" class="service-icon"><span>makeup</span></a
+                  >
+                </li>
+
+                <li>
+                  <a href="#facial" data-bs-toggle="tab"
+                    ><img src="image/icon/facial-treatment.svg" alt="" class="service-icon"><span>Facial</span></a
+                  >
+                </li>
+
+                <li>
+                  <a href="#haircut" data-bs-toggle="tab"
+                    ><img src="image/icon/woman-hair.svg" alt="" class="service-icon"><span>Hair Cut</span></a
+                  >
+                </li>
+                 <li>
+                  <a href="#fat_reduction" data-bs-toggle="tab"
+                    ><img src="image/icon/liposuction.svg" alt="" class="service-icon"><span>Fat Reduction</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#fat_reduction" data-bs-toggle="tab"
+                    ><img src="image/icon/massage.svg" alt="" class="service-icon"><span>massage</span></a
+                  >
+                </li>
+
+                
+
+                <li>
+                  <a href="#nail" data-bs-toggle="tab"
+                    ><img src="image/icon/nail-file.svg" alt=""class="service-icon"><span>Nail care</span></a
+                  >
+                </li>
+
+                <li>
+                  <a href="#waxing" data-bs-toggle="tab"
+                    ><img src="image/icon/waxing.svg" alt="" class="service-icon"><span>waxing</span></a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content">
+                <!-- make up -->
+                <div class="tab-pane active" id="makeup">
+                  <div class="tabbable">
+                    <ul
+                      class="nav nav-tabs beautypress-side-nav"
+                      role="tablist"
+                    >
+                      <li>
+                        <a href="#party_makeup" data-bs-toggle="tab"
+                          >Party makeup</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#women_makeup" data-bs-toggle="tab"
+                          >Bridal makeup</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <div
+                        class="tab-pane beautypress-tab-content active"
+                        id="party_makeup"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img src="image/srvice/party.jpg" alt="Image" />
+                            <!-- <div class="beautypress-tab-image-content">
+                                                <span
+                                                    class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span>
+                                            </div> -->
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Party Makeup</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a href="#" class="xs-btn"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="women_makeup"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="image/srvice/bridal-makeup-look-23.jpg"
+                              alt="Image"
+                            />
+                          </div>
+
+                          <div class="beautypress-tab-text-content">
+                            <h3>Bridal Makeup</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a href="#" class="xs-btn"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- facial -->
+                <div class="tab-pane" id="facial">
+                  <div class="tabbable tabs-left">
+                    <ul class="nav nav-tabs beautypress-side-nav">
+                      <li class="active">
+                        <a href="#microcurrent_facial" data-bs-toggle="tab"
+                          >Microcurrent Facial</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#hydra_facials" data-bs-toggle="tab"
+                          >Hydra Facials</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#radient_facial" data-bs-toggle="tab"
+                          >Radiant Glow BB Facial</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#microdermabrasion_facial" data-bs-toggle="tab"
+                          >Microdermabrasion facial</a
+                        >
+                      </li>
+
+                      <li>
+                        <a href="#other_skin" data-bs-toggle="tab"
+                          >Others skin care</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <!-- microcurrent_facial -->
+                      <div
+                        class="tab-pane beautypress-tab-content active"
+                        id="microcurrent_facial"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-1.jpg"
+                              alt="Image"
+                            />
+                            <!-- <div class="beautypress-tab-image-content">
+                                                <span
+                                                    class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span>
+                                            </div> -->
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Microcurrent Facial</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a href="#" class="xs-btn"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- hydra_facials -->
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="hydra_facials"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-2.jpg"
+                              alt="Image"
+                            />
+                            <!-- <div class="beautypress-tab-image-content">
+                                                <span
+                                                    class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span>
+                                            </div> -->
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Hydra Facials</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a href="#" class="xs-btn"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- radient_facial -->
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="radient_facial"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-3.jpg"
+                              alt="Image"
+                            />
+                            <!-- <div class="beautypress-tab-image-content">
+                                                <span
+                                                    class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span>
+                                            </div> -->
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Radiant Glow BB Facial</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a href="#" class="xs-btn"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Microdermabrasion facial -->
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="microdermabrasion_facial"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-4.jpg"
+                              alt="Image"
+                            />
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Microdermabrasion facial</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a href="#" class="xs-btn"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="other_skin"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-5.jpg"
+                              alt="Image"
+                            />
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Layer Facial</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- hair Category -->
+                <div class="tab-pane" id="haircut">
+                  <div class="tabbable">
+                    <ul class="nav nav-tabs beautypress-side-nav">
+                      <li class="active">
+                        <a href="#mens_haircut111" data-bs-toggle="tab"
+                          >Men's Haircut</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#women_haircut" data-bs-toggle="tab"
+                          >Women's Haircut</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#child_haircut" data-bs-toggle="tab"
+                          >Children's Haircut</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#teens_haircut" data-bs-toggle="tab"
+                          >Teen's Haircut</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#layer_haircut" data-bs-toggle="tab"
+                          >Layer Haircut</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#stylish_haircut" data-bs-toggle="tab"
+                          >Stylish Haircut</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <div
+                        class="tab-pane beautypress-tab-content active"
+                        id="mens_haircut"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-1.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Men's Haircut</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="women_haircut"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-2.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Women's Haircut</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="child_haircut"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-3.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Children's Haircut</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="teens_haircut"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-4.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Teen's Haircut</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="layer_haircut"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-5.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Layer Haircut</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="stylish_haircut"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-6.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Stylish Haircut</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="massage">
+                  <div class="tabbable">
+                    <ul class="nav nav-tabs beautypress-side-nav">
+                      <li class="active">
+                        <a href="#mens_massage" data-bs-toggle="tab"
+                          >Men's massage</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#women_massage" data-bs-toggle="tab"
+                          >Women's massage</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#child_massage" data-bs-toggle="tab"
+                          >Children's massage</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#teens_massage" data-bs-toggle="tab"
+                          >Teen's massage</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#layer_massage" data-bs-toggle="tab"
+                          >Layer massage</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#stylish_massage" data-bs-toggle="tab"
+                          >Stylish massage</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <div
+                        class="tab-pane beautypress-tab-content active"
+                        id="mens_massage"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-1.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Men's massage</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="women_massage"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-2.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Women's massage</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="child_massage"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-3.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Children's massage</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="teens_massage"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-4.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Teen's massage</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="layer_massage"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-5.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Layer massage</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="stylish_massage"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-6.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Stylish massage</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="nail">
+                  <div class="tabbable">
+                    <ul class="nav nav-tabs beautypress-side-nav">
+                      <li class="active">
+                        <a href="#mens_nail" data-bs-toggle="tab"
+                          >Men's Nail care</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#women_nail" data-bs-toggle="tab"
+                          >Women's Nail care</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#child_nail" data-bs-toggle="tab"
+                          >Children's Nail care</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#teens_nail" data-bs-toggle="tab"
+                          >Teen's Nail care</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#layer_nail" data-bs-toggle="tab"
+                          >Layer Nail care</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#stylish_nail" data-bs-toggle="tab"
+                          >Stylish Nail care</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <div
+                        class="tab-pane beautypress-tab-content active"
+                        id="mens_nail"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-1.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Men's Nail care</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="women_nail"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-2.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Women's Nail care</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="child_nail"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-3.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Children's Nail care</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="teens_nail"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-4.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Teen's Nail care</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="layer_nail"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-5.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Layer Nail care</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="stylish_nail"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-6.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Stylish Nail care</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="waxing">
+                  <div class="tabbable">
+                    <ul class="nav nav-tabs beautypress-side-nav">
+                      <li class="active">
+                        <a href="#mens_waxing" data-bs-toggle="tab"
+                          >Men's waxing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#women_waxing" data-bs-toggle="tab"
+                          >Women's waxing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#child_waxing" data-bs-toggle="tab"
+                          >Children's waxing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#teens_waxing" data-bs-toggle="tab"
+                          >Teen's waxing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#layer_waxing" data-bs-toggle="tab"
+                          >Layer waxing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#stylish_waxing" data-bs-toggle="tab"
+                          >Stylish waxing</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <div
+                        class="tab-pane beautypress-tab-content active"
+                        id="mens_waxing"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-1.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Men's waxing</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="women_waxing"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-2.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Women's waxing</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="child_waxing"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-3.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Children's waxing</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="teens_waxing"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-4.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Teen's waxing</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="layer_waxing"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-5.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Layer waxing</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane beautypress-tab-content"
+                        id="stylish_waxing"
+                      >
+                        <div class="beautypress-spilit-container">
+                          <div class="beautypress-tab-image">
+                            <img
+                              src="https://demo.xpeedstudio.com/html/beautypress/img/service-tab-img-6.jpg"
+                              alt="Image"
+                            />
+                            <div class="beautypress-tab-image-content">
+                              <span
+                                class="beautypress-iocn-btn full-round-btn bg-color-purple"
+                                >$50</span
+                              >
+                            </div>
+                          </div>
+                          <div class="beautypress-tab-text-content">
+                            <h3>Stylish waxing</h3>
+                            <p>
+                              It showed a lady fitted out with a fur hat and fur
+                              boa who sat upright, raising a heavy fur muff that
+                              covered the whole of her lower arm towards the
+                              viewer.
+                            </p>
+                            <p>
+                              A collection of textile samples lay spread out on
+                              the table - Samsa was a travelling salesman - and
+                              above it there
+                            </p>
+                            <div class="beautypress-btn-wraper">
+                              <a
+                                href="#"
+                                class="xs-btn round-btn box-shadow-btn bg-color-purple"
+                                >get appointment <span></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--*********************** "Our Services" section end***************** -->
+      <!--******** "Your Everyday Retreat" section start ********** -->
+
+      <section
+        class="beautypress-call-to-action-section beautypress-bg"
+        data-parallax="scroll"
+      >
+        <div class="container">
+          <div class="beautypress-call-to-action-content">
+            <div class="beautypress-content-headinig">
+              <h2>Your Everyday Retreat</h2>
+              <h3>Get Appoinment</h3>
+            </div>
+            <a href="#" class="xs-btn">get appointment <span></span></a>
+          </div>
+        </div>
+      </section>
+
+      <!--*********************** "Your Everyday Retreat" section end***************** -->
+
+      <!--*********************** "Our Team" section start***************** -->
+      <section class="beautypress-team-section beautypress-padding-bottom">
+        <div class="container">
+          <div class="beautypress-section-headinig">
+            <h2>We are awesome</h2>
+            <h3>Our Passionate Team</h3>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="beautypress-single-team beautypress-purple-overlay">
+                <img
+                  src="https://demo.xpeedstudio.com/html/beautypress/img/team-1.jpg"
+                  alt=""
+                />
+                <div class="beautypress-team-content">
+                  <div class="beautypress-team-person-details">
+                    <h3>Jenny william</h3>
+                    <h4>Founder</h4>
+                  </div>
+                  <div class="beautypress-team-person-socail-details">
+                    <a href="#" class="btn profile-btn"> Profile</a>
+                    <ul class="beautypress-social-list">
+                      <li>
+                        <a href="" class="beautypress-facebook"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="" class="beautypress-twitter"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                      </li>
+                      <!-- <li><a href="" class="beautypress-pinterest"><i
+                                                    class="fa fa-pinterest-p"></i></a></li> -->
+                      <li>
+                        <a href="" class="beautypress-instagram"
+                          ><i class="fa-brands fa-instagram"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2nd spesialist -->
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="beautypress-single-team beautypress-pink-overlay">
+                <img
+                  src="https://demo.xpeedstudio.com/html/beautypress/img/team-2.jpg"
+                  alt=""
+                />
+                <div class="beautypress-team-content">
+                  <div class="beautypress-team-person-details">
+                    <h3>Rusana ranshaw</h3>
+                    <h4>C. E. O</h4>
+                  </div>
+                  <div class="beautypress-team-person-socail-details">
+                    <a href="#" class="btn profile-btn"> Profile</a>
+                    <ul class="beautypress-social-list">
+                      <li>
+                        <a href="" class="beautypress-facebook"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="" class="beautypress-twitter"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="" class="beautypress-instagram"
+                          ><i class="fa-brands fa-instagram"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3rd spesialist -->
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="beautypress-single-team beautypress-sky-blue-overlay">
+                <img
+                  src="https://demo.xpeedstudio.com/html/beautypress/img/team-3.jpg"
+                  alt=""
+                />
+                <div class="beautypress-team-content">
+                  <div class="beautypress-team-person-details">
+                    <h3>Jennifar smith</h3>
+                    <h4>Senior Specialist</h4>
+                  </div>
+                  <div class="beautypress-team-person-socail-details">
+                    <a href="#" class="btn profile-btn"> Profile</a>
+                    <ul class="beautypress-social-list">
+                      <li>
+                        <a href="" class="beautypress-facebook"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="" class="beautypress-twitter"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="" class="beautypress-instagram"
+                          ><i class="fa-brands fa-instagram"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="beautypress-icon-bg"></div>
+            <div class="beautypress-round-icons-bg"
+                style="background-image: url(image/treat/icons-bg-2.png);"></div> -->
+      </section>
+
+      <!--*********************** "Your Everyday Retreat" section end**************-->
+    </main>
+    <!--*********************** "footer" section start***************** -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="index.html">
+              <img src="image/lavish beauty corner bold-01.png" alt="" />
+            </a>
+          </div>
+          <div class="subscribe-wraper">
+            <h3>Subscribe For More Updates</h3>
+            <form action="#" method="POST" class="mc-form">
+              <div class="subscribe">
+                <input
+                  type="number"
+                  name="phone"
+                  placeholder="Enter phone number..."
+                  id="phone"
+                />
+                <input
+                  type="submit"
+                  value="subscribe"
+                  class="beautypress-sub"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
+              <div class="single-footer">
+                <p>
+                  Then an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
+              <div class="single-footer single-footer-group">
+                <p>Mon-Fri: 9 AM – 6 PM</p>
+                <p>Saturday: 9 AM – 4 PM</p>
+                <p>Sunday: Closed</p>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
+              <div class="single-footer single-footer-group">
+                <p>176 W street name, New York, NY 10014</p>
+                <p>Email: <a href="#">lavish@gmail.com</a></p>
+                <p>Telephone: +1(800)123-4566</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-content">
+        <div class="container">
+          <div>
+            <div class="active arrow-indicator">
+              <a href="#"
+                ><i
+                  style="
+                    font-size: 35px !important;
+                    font-weight: 600;
+                    color: rgb(246, 248, 249);
+                  "
+                  class="fa fa-angle-up"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="copyright-text">
+            <p>
+              <a href="https://microdeft.com/">Microdeft</a> &copy; 2023 All
+              Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--*********************** "footer" section end***************** -->
+
+    <!-- script link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+  </body>
+</html>
