@@ -61,7 +61,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     /* box-sizing: border-box; */
+    /* overflow-x:hidden; */
 
+}
+html{
+    overflow-x: hidden;
 }
 
 * {
@@ -1049,9 +1053,37 @@ section {
 }
 
 /* service icon */
-.service-icon{
-    height: 20%;
-    width: 20%;
+ .service-icon{
+   height: 25%!important;
+    width: 25%!important;
+    margin-bottom: 5%!important;
+    
+} 
+
+#Capa_1{
+    height: 30%!important;
+    width: 30%!important;
+    margin-bottom: 4%!important;
+    fill: rgb(230, 45, 76);
+
+}
+#Capa_1:hover{
+ height:40%!important;
+    width: 35%!important;
+    fill: rgb(213, 106, 44);
+
+}
+#svg9{
+    height:30%!important;
+    width: 30%!important;
+    margin-bottom: 4%!important;
+    fill: rgb(215, 66, 91);
+
+}
+#svg9:hover{
+   
+    fill: rgb(160, 22, 45);
+
 }
 
 /*======================================================================================
@@ -1530,6 +1562,9 @@ section {
 
 
 @media screen and (max-width: 492px) {
+    /* html{
+        overflow-x: hidden;
+    } */
 
 
     /* header */
@@ -1744,21 +1779,7 @@ section {
     }
 
 
-    /* .beautypress-team-person-details h3 {
-        
-        margin-top: 30px!important;
-        font-size: 1.1em!important;
-    }
-    
-    .beautypress-team-person-details h4 {
-       
-        font-weight: 400;
-        font-size: 1em;
-        text-transform: capitalize;
-    } */
-    /* .beautypress-single-team img {
-        width: 150%;
-    } */
+   
 
     /* footer style */
     .subscribe-wraper {
