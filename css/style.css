@@ -1584,6 +1584,9 @@ section {
   .modal-btn {
     display: none;
   }
+  .open{
+    display: none!important;
+  }
 
   .footer-logo img {
     height: 18% !important;
@@ -1652,6 +1655,12 @@ section {
   }
 
   /* appointment form */
+  .beautypress-booking-text {
+  /* height: 100%; */
+  padding-right:10px!important;
+  /* padding: 55px 0 55px 50px; */
+  /* width: calc(100% + 30px); */
+}
 
   .beautypress-booking-text h3 {
     /* margin: 0 0 40px; */
@@ -1755,6 +1764,12 @@ section {
     height: 50px;
     width: 100px;
   }
+  .close{
+    display: none!important;
+  }
+  /* .open{
+    display: active!important;
+  } */
 
   /* carosal */
   .carousel-inner img {
