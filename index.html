@@ -76,16 +76,30 @@
                   aria-labelledby="navbarDropdown"
                 >
                   <li>
-                    <a class="dropdown-item nav-drop-item" href="#">Action</a>
+                    <a class="dropdown-item nav-drop-item" href="#">Makeup</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#">Facial</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#">Hair</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#">Hair</a>
                   </li>
                   <li>
                     <a class="dropdown-item nav-drop-item" href="#"
-                      >Another action</a
+                      >Fat Reduction</a
                     >
                   </li>
                   <li>
                     <a class="dropdown-item nav-drop-item" href="#"
-                      >Something else here</a
+                      >Nail Care</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#"
+                      >Hair Removal</a
                     >
                   </li>
                 </ul>
@@ -157,17 +171,28 @@
                   aria-labelledby="navbarDropdown"
                 >
                   <li class="modal-dropdown-item">
-                    <a class="dropdown-item nav-drop-item" href="#">Action</a>
+                    <a class="dropdown-item nav-drop-item" href="#">Makeup</a>
                   </li>
                   <li class="modal-dropdown-item">
-                    <a class="dropdown-item nav-drop-item" href="#"
-                      >Another action</a
-                    >
+                    <a class="dropdown-item nav-drop-item" href="#">Facial</a>
                   </li>
 
                   <li>
+                    <a class="dropdown-item nav-drop-item" href="#">Hair</a>
+                  </li>
+                  <li>
                     <a class="dropdown-item nav-drop-item" href="#"
-                      >Something else here</a
+                      >Fat Reduction</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#"
+                      >Nail Care</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item nav-drop-item" href="#"
+                      >Hair Removal</a
                     >
                   </li>
                 </ul>
@@ -307,32 +332,23 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xl-6 col-lg-6">
-              <div class="twentytwenty-container beautypress-before-after">
-                <img
-                  style="
-                    margin-left: 70px;
-                    height: 300px !important;
-                    width: 320px !important;
-                  "
-                  src="image/treat/240_F_73623488_iBqf347ub0iMLLnW9EY0w81bYfOJjZoI.jpg"
-                  alt=""
-                />
+              <div class="secret-lavish-img">
+                <img src="image/treat/beauty-pic.jpg" alt="" />
               </div>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
               <div class="beautypress-simple-text beautypress-version-2">
                 <div class="beautypress-big-sub-heading">
                   <h2>Secret of</h2>
-                  <h3>BeautyPress</h3>
+                  <h3>Lavish</h3>
                 </div>
                 <div class="beautypress-simple-text-content">
                   <p>
-                    BeautyPress uncovers the secret behind Lavish Beauty Corner,
-                    a hidden gem of indulgence. Nestled within its opulent walls
-                    lies an exquisite sanctuary, offering unparalleled pampering
-                    and transformative beauty experiences. Prepare to be
-                    captivated by their extraordinary blend of luxury and
-                    expertise.
+                    Welcome to Lavish Beauty Corner, your premier destination
+                    for beauty and pampering. Our skilled team offers a range of
+                    luxurious services using high-quality products. Experience
+                    relaxation and indulge in personalized care. Book now and
+                    discover your true beauty potential.
                   </p>
                 </div>
                 <div class="beautypress-spilit-container">
@@ -390,11 +406,14 @@
                     <h3>Working Hours</h3>
                     <div class="beautypress-icon-bg-text">
                       <p>
-                        Welcome to the Lavish Beauty Corner! We have designed a luxurious and relaxing time schedule to ensure you have a truly indulgent experience. Sit back, relax, and let us pamper you from head to toe.
+                        Welcome to the Lavish Beauty Corner! We have designed a
+                        luxurious and relaxing time schedule to ensure you have
+                        a truly indulgent experience. Sit back, relax, and let
+                        us pamper you from head to toe.
                       </p>
                     </div>
                     <ul>
-                      <li>Saturday - Friday : 10:00am - 08:00pm</li>
+                      <li>Sat - Fri : 10:00am - 08:00pm</li>
                     </ul>
                   </div>
                 </div>
@@ -403,11 +422,8 @@
             <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
               <div class="beautypress-booking-form-wraper">
                 <form action="#" method="POST" id="beautypress-booking-form">
-                  <input
-                    type="hidden"
-                    name="action"
-                    value="send_appointment_form"
-                  />
+                  <!-- <input type="hidden" name="action"value="send_appointment_form"
+                  /> -->
                   <div class="alert hidden" id="beautypress-form-msg"></div>
                   <div class="beautypress-service-and-date">
                     <h2>Service and Date</h2>
@@ -419,29 +435,33 @@
                           class="form-control form-select"
                         >
                           <option value="">Select your service</option>
-                          <option value="Oil Massage">
-                            Oil Massage ($59.00)
-                          </option>
-                          <option value="Relax Day">Relax Day ($199.00)</option>
-                          <option value="Spa & Beauty">
-                            Spa & Beauty ($299.00)
-                          </option>
-                          <option value="Relax Day (for Two)">
-                            Relax Day (for Two $399.00)
-                          </option>
+                          <option value="Oil Massage">Oil Massage</option>
+                          <option value="Relax Day">Relax Day</option>
+                          <option value="Spa & Beauty">Spa & Beauty</option>
+                          <option value="Relax Day (for Two)">Relax Day</option>
                         </select>
                       </div>
                     </div>
                     <div class="beautypress-spilit-container">
                       <div class="beautypress-date-select beautypress-select">
-                        <div class="input-group" id="datepicker">
-                          <input
+                        <div class="input-group date" id="datepicker">
+                          <input type="date" class="form-control" id="date"placeholder="Date Shedule"/>
+                          <!-- <span class="input-group-append">
+                            <span class="input-group-text bg-light d-block">
+                              <i class="fa fa-calendar"></i>
+                            </span>
+                          </span> -->
+                          <!-- <input
                             type="date"
                             id="appointment-date"
                             class="form-control"
                             name="appointment-date"
                             placeholder="Date Shedule"
-                          />
+                            
+                          /> -->
+                          <!-- *********** -->
+
+                          <!-- ********* -->
                         </div>
                       </div>
 
@@ -490,25 +510,14 @@
                   </div>
                   <div class="beautypress-personal-information">
                     <h2>Personal Information</h2>
-                    <div class="beautypress-spilit-container">
-                      <div class="form-group first-name-group">
-                        <input
-                          type="text"
-                          name="first-name"
-                          class="form-control"
-                          id="first-name"
-                          placeholder="First Name...."
-                        />
-                      </div>
-                      <div class="form-group email-group">
-                        <input
-                          type="email"
-                          name="email"
-                          class="form-control"
-                          id="email"
-                          placeholder="Email Address...."
-                        />
-                      </div>
+                    <div class="form-group first-name-group">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="Name...."
+                      />
                     </div>
                     <div class="form-group phone-group">
                       <input
@@ -519,7 +528,7 @@
                         placeholder="Phone Number...."
                       />
                     </div>
-                    <div class="form-group massage-gropu">
+                    <div class="form-group massage-gropup">
                       <textarea
                         class="form-control"
                         rows="5"
@@ -636,7 +645,8 @@
                   <div class="tabbable">
                     <ul
                       class="nav nav-tabs beautypress-side-nav"
-                      role="tablist">
+                      role="tablist"
+                    >
                       <li>
                         <a href="#party_makeup" data-bs-toggle="tab"
                           >Party makeup</a
@@ -649,7 +659,10 @@
                       </li>
                     </ul>
                     <div class="tab-content">
-                      <div class="tab-pane beautypress-tab-content active"id="party_makeup">
+                      <div
+                        class="tab-pane beautypress-tab-content active"
+                        id="party_makeup"
+                      >
                         <div class="beautypress-spilit-container">
                           <div class="beautypress-tab-image">
                             <img src="image/srvice/party.jpg" alt="Image" />
@@ -1268,7 +1281,7 @@
                 </div>
 
                 <!-- Hair Removal -->
-                 <div class="tab-pane" id="hair_remove">
+                <div class="tab-pane" id="hair_remove">
                   <div class="tabbable">
                     <ul
                       class="nav nav-tabs beautypress-side-nav"
@@ -1280,7 +1293,6 @@
                       <li>
                         <a href="#laser" data-bs-toggle="tab">Hair Removal</a>
                       </li>
-                     
                     </ul>
                     <div class="tab-content">
                       <!-- waxing -->
@@ -1301,10 +1313,7 @@
                         </div>
                       </div>
                       <!-- laser -->
-                      <div
-                        class="tab-pane beautypress-tab-content"
-                        id="laser"
-                      >
+                      <div class="tab-pane beautypress-tab-content" id="laser">
                         <div class="beautypress-spilit-container">
                           <div class="beautypress-tab-image">
                             <img
@@ -1333,10 +1342,6 @@
                           </div>
                         </div>
                       </div>
-                      
-                     
-                      
-                      
                     </div>
                   </div>
                 </div>
@@ -1492,10 +1497,9 @@
       </section> -->
 
       <!--*********************** "Your Everyday Retreat" section end**************-->
-      
     </main>
 
-     <!--*********************** "footer" section start***************** -->
+    <!--*********************** "footer" section start***************** -->
     <footer class="footer-section">
       <div class="container">
         <div class="footer-content">
@@ -1526,7 +1530,11 @@
             <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
               <div class="single-footer">
                 <p>
-                  Welcome to Lavish Beauty Corner, your premier destination for beauty and pampering. Our skilled team offers a range of luxurious services using high-quality products. Experience relaxation and indulge in personalized care. Book now and discover your true beauty potential.
+                  Welcome to Lavish Beauty Corner, your premier destination for
+                  beauty and pampering. Our skilled team offers a range of
+                  luxurious services using high-quality products. Experience
+                  relaxation and indulge in personalized care. Book now and
+                  discover your true beauty potential.
                 </p>
               </div>
             </div>
@@ -1570,10 +1578,8 @@
           </div>
         </div>
       </div>
-    
     </footer>
     <!--*********************** "footer" section end***************** -->
-   
 
     <!-- script link -->
     <script

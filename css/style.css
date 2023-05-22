@@ -42,6 +42,7 @@
   src: url(../fonts/ARLRDBD.ttf);
 }
 
+
 @font-face {
   font-family: "benalla";
   src: url(../fonts/Benalla.ttf);
@@ -346,8 +347,10 @@ section {
   line-height: 1.8;
 }
 
-.beautypress-before-after.twentytwenty-container img {
-  width: 60%;
+.secret-lavish-img{
+  margin-left: 40px;
+  height: 300px !important;
+  width: 320px !important;
 }
 
 .beautypress-simple-text.beautypress-version-2 {
@@ -366,6 +369,7 @@ section {
   font-family: Arial;
   font-style: italic;
   font-size: 2.657em;
+  color: #6a5650;
   font-weight: 600;
   line-height: 1;
   letter-spacing: -2px;
@@ -420,9 +424,10 @@ section {
 }
 
 .beautypress-icon-with-text p {
-  margin: 0;
+  /* margin: 0; */
+  padding-right: 5px!important;
   color: #4d4c4c;
-  line-height: inherit;
+  /* line-height: inherit; */
 }
 
 /*===================================================
@@ -622,7 +627,7 @@ section {
   transition: all 0.4s ease;
 }
 
-.beautypress-booking-form-wraper .beautypress-select .input-group:before {
+/* .beautypress-booking-form-wraper .beautypress-select .input-group:before {
   position: absolute;
   content: "\f107";
   top: 50%;
@@ -633,7 +638,6 @@ section {
   color: #e2b9a3;
   font-size: 1.429em;
   font-family: Arial;
-  /* font-family: var(--font-icons-1); */
   z-index: 9;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -649,7 +653,7 @@ section {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
+} */
 
 .beautypress-booking-form-wraper
   .beautypress-select
@@ -697,7 +701,7 @@ section {
   width: 100%;
 }
 
-.beautypress-booking-form-wraper .form-group.massage-gropu {
+.beautypress-booking-form-wraper .form-group.massage-gropup {
   margin: 0 0 30px;
 }
 
@@ -871,8 +875,6 @@ section {
   color: #666666;
 }
 
-
-
 .beautypress-tab .tab-content .tab-pane .tabbable {
   display: flex;
   width: 100%;
@@ -1014,13 +1016,13 @@ section {
   margin: 0 0 20px;
   color: #999999;
 }
-.beautypress-tab .beautypress-tab-text-content li{
+.beautypress-tab .beautypress-tab-text-content li {
   margin: 0 0 10px;
   color: #999999;
   padding-left: 10px;
 }
-.beautypress-tab .beautypress-tab-text-content li span{
-  font-size: 17px!important;
+.beautypress-tab .beautypress-tab-text-content li span {
+  font-size: 17px !important;
   color: #f49797;
   /* padding-left: 10px; */
 }
@@ -1056,7 +1058,7 @@ section {
 
 .beautypress-btn-wraper a:last-child {
   margin: 0;
-  margin-bottom: 10px!important;
+  margin-bottom: 10px !important;
 }
 
 /* service icon */
@@ -1065,7 +1067,6 @@ section {
   width: 25% !important;
   margin-bottom: 5% !important;
 }
-
 
 /*======================================================================================
 							 Our Service section end
@@ -1430,9 +1431,7 @@ section {
 /*              footer section start               */
 /* =============================================== */
 
- 
 .footer-section {
-  
   position: relative;
   /* padding: 133px 0 0 0; */
   background-size: cover;
@@ -1550,14 +1549,14 @@ section {
 .copyright-text {
   text-align: center;
   position: relative;
-  
+
   /* z-index: 2; */
 }
 
 .copyright-text p {
   color: #ffffff;
   font-size: 1.13em;
-  margin-bottom: 0!important;
+  margin-bottom: 0 !important;
 }
 
 .subscribe label {
@@ -1665,29 +1664,28 @@ section {
   }
   /* our service */
   .beautypress-tab .nav.nav-tabs.beautypress-top-nav li {
- 
-  margin: 0 5px 0 0!important;
-  margin-bottom: 5px!important;
-  height: 100px!important;
-  width: 20%!important;
-}
-  .beautypress-top-nav li a span{
-    font-size: .1em!important;
-  color: rgb(182, 93, 93)!important;
-  padding: 0 6px 0 2px;
-}
- .beautypress-top-nav li a span:hover{
-  color: rgb(239, 107, 107)!important;
-  padding: 0 8px 0 5px;
-}
+    margin: 0 5px 0 0 !important;
+    margin-bottom: 5px !important;
+    height: 100px !important;
+    width: 20% !important;
+  }
+  .beautypress-top-nav li a span {
+    font-size: 0.1em !important;
+    color: rgb(182, 93, 93) !important;
+    padding: 0 6px 0 2px;
+  }
+  .beautypress-top-nav li a span:hover {
+    color: rgb(239, 107, 107) !important;
+    padding: 0 8px 0 5px;
+  }
 
- .beautypress-tab .beautypress-side-nav li a {
-  color: #777777;
-  font-size: .85em!important;
-  padding: 0 18x 10px 0!important;
-}
+  .beautypress-tab .beautypress-side-nav li a {
+    color: #777777;
+    font-size: 0.85em !important;
+    padding: 0 18x 10px 0 !important;
+  }
 
-/*.beautypress-tab .beautypress-tab-text-content h3 {
+  /*.beautypress-tab .beautypress-tab-text-content h3 {
   
   color: #f195bd;
   font-weight: 300!important;
@@ -1710,8 +1708,8 @@ section {
   font-size: 1.1em!important;
   padding-top: 0!important;
 } */
-  
-/* **************** */
+
+  /* **************** */
   /* Retreat section */
   .beautypress-content-headinig h2 {
     margin: 0 0 20px !important;
@@ -1807,7 +1805,34 @@ section {
     padding: 11px;
   }
 
+  /* secret of beauty */
+  .beautypress-simple-text.beautypress-version-2
+    .beautypress-big-sub-heading
+    h2 {
+    padding-top: 40px !important;
+    text-align: center;
+  }
+  .beautypress-simple-text.beautypress-version-2
+    .beautypress-big-sub-heading
+    h3 {
+    /* padding-top: 40px!important; */
+    text-align: center;
+  }
+ .secret-lavish-img{
+ display: block!important;
+  margin: auto!important;
+ }
+.secret-lavish-img img{
+  /* margin-left: 40px; */
+  height: 300px !important;
+  width: 320px !important;
+ 
+}
+
+
+
   /* Retreat section */
+
   .beautypress-content-headinig h2 {
     /* margin: 0 0 20px; */
     font-weight: 800 !important;
@@ -1821,61 +1846,56 @@ section {
     font-size: 2.571em;
   }
   /* our service */
-   .beautypress-tab .beautypress-top-nav li a span {
-  font-size: 11px!important;
-  font-weight: 200!important;
-  padding-left: 5px;
-  padding-right: 5px;
-  
-}
+  .beautypress-tab .beautypress-top-nav li a span {
+    font-size: 11px !important;
+    font-weight: 200 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
-.beautypress-top-nav li a img{
-  height:25%!important ;
-  width: 25%!important;
-  color: red!important;
-}
-.beautypress-top-nav li a span{
-  /* height:25%!important ;
+  .beautypress-top-nav li a img {
+    height: 25% !important ;
+    width: 25% !important;
+    color: red !important;
+  }
+  .beautypress-top-nav li a span {
+    /* height:25%!important ;
   width: 25%!important; */
-  color: rgb(182, 93, 93)!important;
-  padding: 0 8px 0 5px;
-}
-.beautypress-top-nav li a span:hover{
-  color: rgb(239, 107, 107)!important;
-  padding: 0 8px 0 5px;
-}
+    color: rgb(182, 93, 93) !important;
+    padding: 0 8px 0 5px;
+  }
+  .beautypress-top-nav li a span:hover {
+    color: rgb(239, 107, 107) !important;
+    padding: 0 8px 0 5px;
+  }
 
-.beautypress-tab .beautypress-side-nav li a {
-  color: #777777;
-  font-size: .85em!important;
-  padding: 0 18x 10px 0!important;
-}
+  .beautypress-tab .beautypress-side-nav li a {
+    color: #777777;
+    font-size: 0.85em !important;
+    padding: 0 18x 10px 0 !important;
+  }
 
-.beautypress-tab .beautypress-tab-text-content h3 {
-  
-  color: #f195bd;
-  font-weight: 300!important;
-  font-size: 1.5em!important;
-  padding-top: 20px!important;
-}
-.beautypress-tab .beautypress-tab-text-content p {
-  
-  color: #96878e;
-  font-size: .78em!important;
-  padding-top: 0!important;
-}
-.beautypress-tab .beautypress-tab-text-content ul li{
-  
-  color: #96878e;
-  font-size: .78em!important;
-  padding-top: 0!important;
-}
-.beautypress-tab .beautypress-tab-text-content ul li span{
-  
-  /* color: #96878e; */
-  font-size: 1.1em!important;
-  padding-top: 0!important;
-}
+  .beautypress-tab .beautypress-tab-text-content h3 {
+    color: #f195bd;
+    font-weight: 300 !important;
+    font-size: 1.5em !important;
+    padding-top: 20px !important;
+  }
+  .beautypress-tab .beautypress-tab-text-content p {
+    color: #96878e;
+    font-size: 0.78em !important;
+    padding-top: 0 !important;
+  }
+  .beautypress-tab .beautypress-tab-text-content ul li {
+    color: #96878e;
+    font-size: 0.78em !important;
+    padding-top: 0 !important;
+  }
+  .beautypress-tab .beautypress-tab-text-content ul li span {
+    /* color: #96878e; */
+    font-size: 1.1em !important;
+    padding-top: 0 !important;
+  }
   /* our team */
   .beautypress-single-team {
     margin-left: 10px !important;
