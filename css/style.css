@@ -768,7 +768,7 @@ section {
 
 .beautypress-tab .nav.nav-tabs.beautypress-top-nav li {
   flex: 1;
-  margin: 0 30px 0 0;
+  margin: 0 20px 0 0;
 }
 
 .beautypress-tab .nav.nav-tabs.beautypress-top-nav li:last-child {
@@ -777,7 +777,7 @@ section {
 
 .beautypress-tab .beautypress-top-nav li,
 .beautypress-tab .beautypress-top-nav li a {
-  min-height: 100px;
+  min-height: 90px;
   text-decoration: none !important;
 }
 
@@ -809,7 +809,7 @@ section {
   background-color: var(--color-white);
 }
 
-.beautypress-tab .beautypress-top-nav li a i {
+/* .beautypress-tab .beautypress-top-nav li a i {
     margin: 0 0 20px;
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
@@ -820,7 +820,7 @@ section {
 .beautypress-tab .beautypress-top-nav li a:hover i,
 .beautypress-tab .beautypress-top-nav li.active a i {
     color: var(--color-pink);
-}
+} */
 
 .beautypress-tab .beautypress-top-nav li a:before,
 .beautypress-tab .beautypress-top-nav li a:after {
@@ -870,6 +870,8 @@ section {
 .beautypress-tab .beautypress-top-nav li a:hover span {
   color: #666666;
 }
+
+
 
 .beautypress-tab .tab-content .tab-pane .tabbable {
   display: flex;
@@ -1064,26 +1066,6 @@ section {
   margin-bottom: 5% !important;
 }
 
-#Capa_1 {
-  height: 30% !important;
-  width: 30% !important;
-  margin-bottom: 4% !important;
-  fill: rgb(230, 45, 76);
-}
-#Capa_1:hover {
-  height: 40% !important;
-  width: 35% !important;
-  fill: rgb(213, 106, 44);
-}
-#svg9 {
-  height: 30% !important;
-  width: 30% !important;
-  margin-bottom: 4% !important;
-  fill: rgb(215, 66, 91);
-}
-#svg9:hover {
-  fill: rgb(160, 22, 45);
-}
 
 /*======================================================================================
 							 Our Service section end
@@ -1447,19 +1429,21 @@ section {
 /* =============================================== */
 /*              footer section start               */
 /* =============================================== */
+
+ 
 .footer-section {
+  
   position: relative;
   /* padding: 133px 0 0 0; */
-  padding-bottom: 0 !important;
-  margin-bottom: 0 !important;
   background-size: cover;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 829.4" preserveAspectRatio="none"><path fill= "rgb(236, 30, 121)" fill-opacity= "0.5" fill-rule= "evenodd" d="M0,10266s198.4,114,387,5,497.966-214.4,774-170,689.47,140,759,169v650H0v-654Z" transform="translate(0 -10090.6)"/></svg>');
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: 50%;
-  padding: 0;
-  /* padding-top: calc(100% * 1 / 10); */
+  height: 500%;
+  /* padding: 0; */
+  /* margin-top: -50%!important; */
+  padding-top: calc(100% * 1 / 10);
 }
 
 .footer-section:after {
@@ -1667,13 +1651,6 @@ section {
   }
 
   /* appointment form */
-  /* .beautypress-booking-text h2 {
-    margin: 0 0 28px;
-    color: #6A1B9A;
-    font-weight: 500;
-    text-transform: capitalize;
-    font-size: 1.429em;
-} */
 
   .beautypress-booking-text h3 {
     /* margin: 0 0 40px; */
@@ -1684,7 +1661,55 @@ section {
     font-size: 0.9em;
     color: #792ca9;
   }
+  /* our service */
+  .beautypress-tab .nav.nav-tabs.beautypress-top-nav li {
+ 
+  margin: 0 5px 0 0!important;
+  margin-bottom: 5px!important;
+  height: 100px!important;
+  width: 20%!important;
+}
+  .beautypress-top-nav li a span{
+    font-size: .1em!important;
+  color: rgb(182, 93, 93)!important;
+  padding: 0 6px 0 2px;
+}
+ .beautypress-top-nav li a span:hover{
+  color: rgb(239, 107, 107)!important;
+  padding: 0 8px 0 5px;
+}
 
+ .beautypress-tab .beautypress-side-nav li a {
+  color: #777777;
+  font-size: .85em!important;
+  padding: 0 18x 10px 0!important;
+}
+
+/*.beautypress-tab .beautypress-tab-text-content h3 {
+  
+  color: #f195bd;
+  font-weight: 300!important;
+  font-size: 1.5em!important;
+  padding-top: 20px!important;
+}
+.beautypress-tab .beautypress-tab-text-content p {
+  
+  color: #96878e;
+  font-size: .78em!important;
+  padding-top: 0!important;
+}
+.beautypress-tab .beautypress-tab-text-content ul li{
+  
+  color: #96878e;
+  font-size: .78em!important;
+  padding-top: 0!important;
+}
+.beautypress-tab .beautypress-tab-text-content ul li span{
+  font-size: 1.1em!important;
+  padding-top: 0!important;
+} */
+  
+/* **************** */
   /* Retreat section */
   .beautypress-content-headinig h2 {
     margin: 0 0 20px !important;
@@ -1694,14 +1719,6 @@ section {
   .beautypress-content-headinig h3 {
     font-size: 1.7em !important;
   }
-
-  /* our team */
-  /* .beautypress-single-team {
-        margin-left: 10px !important;
-        margin-bottom: 20px !important;
-        width: 60% !important;
-    } */
-
   /* footer */
   .footer-logo img {
     margin-top: 30px !important;
@@ -1801,12 +1818,66 @@ section {
     font-weight: 600;
     font-size: 2.571em;
   }
+  /* our service */
+   .beautypress-tab .beautypress-top-nav li a span {
+  font-size: 11px!important;
+  font-weight: 200!important;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
 
+.beautypress-top-nav li a img{
+  height:25%!important ;
+  width: 25%!important;
+  color: red!important;
+}
+.beautypress-top-nav li a span{
+  /* height:25%!important ;
+  width: 25%!important; */
+  color: rgb(182, 93, 93)!important;
+  padding: 0 8px 0 5px;
+}
+.beautypress-top-nav li a span:hover{
+  color: rgb(239, 107, 107)!important;
+  padding: 0 8px 0 5px;
+}
+
+.beautypress-tab .beautypress-side-nav li a {
+  color: #777777;
+  font-size: .85em!important;
+  padding: 0 18x 10px 0!important;
+}
+
+.beautypress-tab .beautypress-tab-text-content h3 {
+  
+  color: #f195bd;
+  font-weight: 300!important;
+  font-size: 1.5em!important;
+  padding-top: 20px!important;
+}
+.beautypress-tab .beautypress-tab-text-content p {
+  
+  color: #96878e;
+  font-size: .78em!important;
+  padding-top: 0!important;
+}
+.beautypress-tab .beautypress-tab-text-content ul li{
+  
+  color: #96878e;
+  font-size: .78em!important;
+  padding-top: 0!important;
+}
+.beautypress-tab .beautypress-tab-text-content ul li span{
+  
+  /* color: #96878e; */
+  font-size: 1.1em!important;
+  padding-top: 0!important;
+}
   /* our team */
   .beautypress-single-team {
     margin-left: 10px !important;
     margin-bottom: 20px !important;
-    /* width: 90% !important; */
   }
 
   /* footer style */
@@ -1827,3 +1898,10 @@ section {
     font-size: 1.3em;
   }
 }
+/* @media  screen and (max-width:1200) {
+    .beautypress-tab .beautypress-top-nav li a span {
+  color: #999999;
+  font-weight: 500;
+  
+}
+} */
