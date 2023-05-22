@@ -51,7 +51,7 @@ body {
   background-color: white;
   font-size: 14px;
   padding: 0;
-  margin: 0;
+  margin: 0%;
   font-family: Arial;
   font-weight: 400;
   overflow-x: hidden;
@@ -1550,12 +1550,14 @@ section {
 .copyright-text {
   text-align: center;
   position: relative;
-  z-index: 2;
+  
+  /* z-index: 2; */
 }
 
 .copyright-text p {
   color: #ffffff;
   font-size: 1.13em;
+  margin-bottom: 0!important;
 }
 
 .subscribe label {
