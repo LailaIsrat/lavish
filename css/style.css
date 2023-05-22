@@ -1584,6 +1584,9 @@ section {
   .modal-btn {
     display: none;
   }
+  .side-menu{
+display: none;
+  }
   .open{
     display: none!important;
   }
@@ -1688,11 +1691,18 @@ section {
     padding: 0 8px 0 5px;
   }
 
+  
   .beautypress-tab .beautypress-side-nav li a {
-    color: #777777;
-    font-size: 0.85em !important;
-    padding: 0 18x 10px 0 !important;
-  }
+  display: block;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 0.85em !important;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding: 0 18x 10px 0 !important;
+}
 
   /*.beautypress-tab .beautypress-tab-text-content h3 {
   
@@ -1759,6 +1769,22 @@ section {
 }
 
 @media screen and (max-width: 992px) {
+  .side-menu ul{
+    border: 4px dotted gray;
+  }
+  .side-menu li a{
+    text-decoration: none;
+    color: #e88162;
+    font-size: .8em!important;
+    font-weight: 500!important;
+    padding: 0 18x 10px 0 !important;
+    /* padding-bottom: 3px!important; */
+  }
+  .side-menu li a:hover{
+    color: #dd633e;
+    font-size: .9em!important;
+    font-weight: 500!important;
+  }
   /* logo */
   .header-nav img {
     height: 50px;
@@ -1767,9 +1793,6 @@ section {
   .close{
     display: none!important;
   }
-  /* .open{
-    display: active!important;
-  } */
 
   /* carosal */
   .carousel-inner img {
@@ -1821,15 +1844,11 @@ section {
   }
 
   /* secret of beauty */
-  .beautypress-simple-text.beautypress-version-2
-    .beautypress-big-sub-heading
-    h2 {
+  .beautypress-simple-text.beautypress-version-2 .beautypress-big-sub-heading h2 {
     padding-top: 40px !important;
     text-align: center;
   }
-  .beautypress-simple-text.beautypress-version-2
-    .beautypress-big-sub-heading
-    h3 {
+  .beautypress-simple-text.beautypress-version-2 .beautypress-big-sub-heading h3 {
     /* padding-top: 40px!important; */
     text-align: center;
   }
@@ -1883,12 +1902,30 @@ section {
     color: rgb(239, 107, 107) !important;
     padding: 0 8px 0 5px;
   }
-
-  .beautypress-tab .beautypress-side-nav li a {
-    color: #777777;
-    font-size: 0.85em !important;
-    padding: 0 18x 10px 0 !important;
+  
+  .beautypress-tab .beautypress-side-nav{
+    display:none;
   }
+
+  /* .beautypress-tab .beautypress-side-nav li a {
+    color: #777777;
+    font-size: 0.75em !important;
+    margin-left: 3px!important;
+    padding: 0 !important;
+  } */
+
+  /* .beautypress-tab .beautypress-side-nav li a {
+  display: block;
+  width: 100%;
+  color: #777777;
+  text-transform: capitalize;
+  font-size: 1.143em;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding: 0 0 16px; */
+}
 
   .beautypress-tab .beautypress-tab-text-content h3 {
     color: #f195bd;
