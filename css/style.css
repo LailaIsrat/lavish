@@ -1,5 +1,8 @@
 /* css variable list */
 
+
+
+                          
 :root {
   /*color purple*/
   --color-purple: #6a1b9a;
@@ -683,7 +686,7 @@ section {
 }
 
 .beautypress-booking-form-wraper textarea {
-  height: 130px;
+  height: 150px;
   resize: none;
   padding: 20px;
   border-radius: 0;
@@ -701,7 +704,7 @@ section {
   width: 100%;
 }
 
-.beautypress-booking-form-wraper .form-group.massage-gropup {
+.beautypress-booking-form-wraper .form-group.massage-group {
   margin: 0 0 30px;
 }
 
@@ -960,16 +963,14 @@ section {
   height: calc(100% + 10px);
 }
 
-.beautypress-tab .beautypress-spilit-container {
-  display: flex;
-  height: 100%;
-}
+
+
 
 .beautypress-tab-text-content {
   -ms-flex-item-align: center;
-  align-self: center;
   padding: 0 47px 0 0;
   width: calc(55.56666% - 15px);
+  padding-top: 5%;
 }
 
 .beautypress-tab .beautypress-tab-content {
@@ -1595,6 +1596,10 @@ display: none;
     height: 18% !important;
     width: 18% !important;
   }
+  .beautypress-tab .beautypress-spilit-container {
+  display: flex;
+  height: 100%;
+}
 }
 
 @media screen and (max-width: 492px) {
@@ -1741,6 +1746,7 @@ display: none;
   /* footer */
   .footer-logo img {
     margin-top: 30px !important;
+    width: 50%!important;
   }
 
   .subscribe-wraper h3 {
@@ -1924,8 +1930,8 @@ display: none;
   position: relative;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  padding: 0 0 16px; */
-}
+  padding: 0 0 16px; 
+}*/
 
   .beautypress-tab .beautypress-tab-text-content h3 {
     color: #f195bd;
