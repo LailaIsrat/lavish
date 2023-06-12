@@ -78,7 +78,10 @@ html {
 section {
   margin-bottom: 80px;
 }
-
+.nav-modal-style{
+   max-width: 50%;
+    margin-left: 0
+}
 /* =============================================== */
 /*              header section start               */
 /* =============================================== */
@@ -1234,10 +1237,7 @@ section {
   padding: 0 0 120px;
 }
 
-.beautypress-section-headinig {
-  padding: 120px 0 80px 0;
-  text-align: center;
-}
+
 
 .beautypress-single-team .beautypress-social-list li a:hover {
   background-color: #5b5757 !important;
@@ -1440,10 +1440,11 @@ section {
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: 500%;
+  /* height: 500%; */
+  padding-top: 5%;
   /* padding: 0; */
   /* margin-top: -50%!important; */
-  padding-top: calc(100% * 1 / 10);
+  /* padding-top: calc(100% * 1 / 10); */
 }
 
 .footer-section:after {
@@ -1463,13 +1464,14 @@ section {
 .footer-content {
   position: relative;
   z-index: 1;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin: 0 0 40px;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
+  /* margin: 0 0 40px; */
+  
 }
 
 .footer-logo {
   text-align: center;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   padding-bottom: 20px;
 }
 
@@ -1483,14 +1485,19 @@ section {
 }
 
 .subscribe-wraper {
-  width: 50%;
-  margin: 0 auto 100px auto;
+  /* width: 50%; */
+  margin: 0 auto 50px auto;
+  width:100%!important;
+
   text-align: center;
 }
 
 .subscribe {
-  height: 70px;
+  height: 60px;
   position: relative;
+  /* width: 80%; */
+  width: 60%;
+  margin: auto;
 }
 
 .subscribe-wraper input:not([type="submit"]) {
@@ -1504,18 +1511,18 @@ section {
 
 .subscribe-wraper input[type="submit"] {
   position: absolute;
-  right: 10px;
+  right: 8px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  height: 50px;
+  height:45px;
   border: 0;
-  border-radius: 80px;
+  border-radius: 40px;
   background-color: #df6c9a;
-  padding: 0 30px;
+  padding: 0 15px;
   color: #ffffff;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.4s ease;
 }
@@ -1524,22 +1531,22 @@ section {
   background-color: #e6377a !important;
 }
 
-.footer-section.version-3 .subscribe-wraper input[type="submit"]:hover {
+/* .footer-section.version-3 .subscribe-wraper input[type="submit"]:hover {
   background-color: #ff4641 !important;
-}
+} */
 
 .subscribe-wraper h3 {
   margin: 0 0 30px;
   font-weight: 400;
   color: white;
   text-transform: capitalize;
-  font-size: 1.857em;
+  font-size: 1.3em;
 }
 
 .single-footer p {
   color: #ffffff;
   text-align: center;
-  font-size: 16px !important;
+  font-size: 15px !important;
   font-weight: 600;
 }
 
@@ -1560,20 +1567,26 @@ section {
   margin-bottom: 0 !important;
 }
 
-.subscribe label {
-  margin: 10px 0 0;
-  color: red !important;
+
+.arrow-indicator{
+  position: fixed;
+ right: 10px;
+  bottom: 5%;
+  z-index: 10;
+  /* float:right */
 }
 
 .arrow-indicator a {
-  border-radius: 50px 50px 50px;
+  margin-top: 5%!important;
+  border-radius: 50%;
   background-color: rgb(245, 107, 82);
-  padding: 18px 18px 8px 18px;
+  padding: 18px 11px 8px 11px;
 }
 
 .arrow-indicator a:hover {
   background-color: rgb(233, 79, 52);
-  border-radius: 60px 60px 60px;
+  /* border-radius: 60px 60px 60px; */
+  border-radius: 50%;
 }
 
 /* =============================================== */
@@ -1603,11 +1616,11 @@ display: none;
 }
 
 @media screen and (max-width: 492px) {
-  /* html{
-        overflow-x: hidden;
-    } */
-
+ 
   /* header */
+  .nav-modal-style{
+   max-width:60%;
+}
   .header-nav img {
     height: 40px;
     width: 100px;
@@ -1664,10 +1677,7 @@ display: none;
 
   /* appointment form */
   .beautypress-booking-text {
-  /* height: 100%; */
   padding-right:10px!important;
-  /* padding: 55px 0 55px 50px; */
-  /* width: calc(100% + 30px); */
 }
 
   .beautypress-booking-text h3 {
@@ -1709,29 +1719,7 @@ display: none;
   padding: 0 18x 10px 0 !important;
 }
 
-  /*.beautypress-tab .beautypress-tab-text-content h3 {
-  
-  color: #f195bd;
-  font-weight: 300!important;
-  font-size: 1.5em!important;
-  padding-top: 20px!important;
-}
-.beautypress-tab .beautypress-tab-text-content p {
-  
-  color: #96878e;
-  font-size: .78em!important;
-  padding-top: 0!important;
-}
-.beautypress-tab .beautypress-tab-text-content ul li{
-  
-  color: #96878e;
-  font-size: .78em!important;
-  padding-top: 0!important;
-}
-.beautypress-tab .beautypress-tab-text-content ul li span{
-  font-size: 1.1em!important;
-  padding-top: 0!important;
-} */
+
 
   /* **************** */
   /* Retreat section */
@@ -1745,11 +1733,16 @@ display: none;
   }
   /* footer */
   .footer-logo img {
-    margin-top: 30px !important;
-    width: 50%!important;
+    margin-top: 20% !important;
+    width: 100%!important;
+  }
+  .subscribe {
+  width: 90%;
+  
   }
 
   .subscribe-wraper h3 {
+    /* margin-top: 5%!important; */
     font-size: 1.1em !important;
   }
 
@@ -1764,13 +1757,26 @@ display: none;
 
   .subscribe-wraper input[type="submit"] {
     position: absolute;
-    right: 10px;
+    right: 8px;
     top: 38%;
-    height: 32px;
+    height: 38px;
     width: 100px !important;
     font-size: 12px !important;
     border-radius: 20px;
-    padding: 0 10px;
+    /* padding: 0 10px; */
+  }
+  .subscribe-wraper {
+  margin: 0 auto 20px auto;
+  }
+  .copyright-content{
+    border-top: 2px solid rgb(110, 105, 105);
+    /* width: auto ; */
+    margin:2% 5% auto 5%!important;
+  }
+  
+  .copyright-text{
+    
+    margin-top: 5%!important;
   }
 }
 
@@ -1913,25 +1919,7 @@ display: none;
     display:none;
   }
 
-  /* .beautypress-tab .beautypress-side-nav li a {
-    color: #777777;
-    font-size: 0.75em !important;
-    margin-left: 3px!important;
-    padding: 0 !important;
-  } */
-
-  /* .beautypress-tab .beautypress-side-nav li a {
-  display: block;
-  width: 100%;
-  color: #777777;
-  text-transform: capitalize;
-  font-size: 1.143em;
-  text-decoration: none;
-  position: relative;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  padding: 0 0 16px; 
-}*/
+ 
 
   .beautypress-tab .beautypress-tab-text-content h3 {
     color: #f195bd;
@@ -1964,7 +1952,7 @@ display: none;
   .subscribe-wraper {
     width: 80%;
     text-align: center;
-    margin-left: 50px !important;
+    /* margin-left: 50px !important; */
   }
 
   .footer-logo img {
@@ -1977,6 +1965,15 @@ display: none;
     font-weight: 400;
     font-size: 1.3em;
   }
+  .copyright-text{
+    margin-top: 3%!important;
+  }
+  
+  /* .subscribe {
+    height: 70px!important;
+    padding: 5% auto!important;
+    
+  } */
 }
 /* @media  screen and (max-width:1200) {
     .beautypress-tab .beautypress-top-nav li a span {
