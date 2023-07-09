@@ -1,8 +1,5 @@
 /* css variable list */
 
-
-
-                          
 :root {
   /*color purple*/
   --color-purple: #6a1b9a;
@@ -45,7 +42,6 @@
   src: url(../fonts/ARLRDBD.ttf);
 }
 
-
 @font-face {
   font-family: "benalla";
   src: url(../fonts/Benalla.ttf);
@@ -74,13 +70,15 @@ html {
 * {
   box-sizing: border-box;
 }
-
+/* .container {
+  width: 98%;
+} */
 section {
-  margin-bottom: 80px;
+  margin-bottom: 5%;
 }
-.nav-modal-style{
-   max-width: 50%;
-    margin-left: 0
+.nav-modal-style {
+  max-width: 50%;
+  margin-left: 0;
 }
 /* =============================================== */
 /*              header section start               */
@@ -179,7 +177,6 @@ section {
 /* modal dropdown menu end */
 .modal-btn {
   float: right;
-  /* border: 3px solid rgb(181, 71, 89); */
   width: 100px;
   height: 60px;
 }
@@ -192,6 +189,48 @@ section {
 /*              header section end               */
 /* =============================================== */
 
+#carouselExampleControls .carousel-inner {
+  padding: 1em;
+}
+#carouselExampleControls .card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+#carouselExampleControls .carousel-control-prev,
+#carouselExampleControls .carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  #carouselExampleControls .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  #carouselExampleControls .carousel-inner {
+    display: flex;
+  }
+}
+#carouselExampleControls .card .img-wrapper {
+  max-width: 100%;
+  height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#carouselExampleControls .card img {
+  max-height: 100%;
+}
+@media (max-width: 767px) {
+  #carouselExampleControls .card .img-wrapper {
+    height: 17em;
+  }
+}
 /* =============================================== */
 /*              carousel section start               */
 /* =============================================== */
@@ -199,7 +238,6 @@ section {
 .carousel-inner img {
   width: auto;
   height: 550px;
-  /* opacity: 0.8; */
 }
 
 /* caption */
@@ -236,32 +274,20 @@ section {
 }
 
 .left-side-caption h2 {
-  /* color: #c95a8c;
-    font-style: italic;
-    font-size: 600; */
   color: #c95a8c;
   font-size: 38px !important;
   font-family: benalla;
-  /* font-style: italic; */
   font-weight: 800;
 }
 
 .left-side-caption h3 {
-  /* color: #7f2b51;
-    font-style: italic;
-    font-size: 35px;
-    font-size: 600; */
-
   color: #6a1b9a;
-  /* font-style: italic; */
   font-size: 35px;
   font-size: 600;
 }
 
 .left-side-caption p {
   color: #afa2a7;
-  /* font-style: italic; */
-  /* font-size: 600; */
 }
 
 /* button */
@@ -303,23 +329,9 @@ section {
 }
 
 .xs-btn:hover span {
-  /* color: white!important; */
   width: 335%;
   height: 562.5px;
 }
-
-/* .xs-btn.round-btn {
-    border-radius: 25px;
-}
-
-.xs-btn.box-shadow-btn {
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
-}
-.xs-btn.bg-color-pink span,
-.xs-btn.bg-color-sky-blue span,
-.xs-btn.bg-color-white span {
-    background-color: #6A1B9A;
-} */
 
 /* =============================================== 
                                  carousel section end              
@@ -330,7 +342,7 @@ section {
                       ==================================================*/
 
 .beautypress-simple-text-with-img-section {
-  padding: 110px 0;
+  padding: 5% 0;
 }
 
 .beautypress-simple-text {
@@ -353,8 +365,8 @@ section {
   line-height: 1.8;
 }
 
-.secret-lavish-img{
-  margin-left: 40px;
+.secret-lavish-img {
+  /* margin-left: 40px; */
   height: 300px !important;
   width: 320px !important;
 }
@@ -431,7 +443,7 @@ section {
 
 .beautypress-icon-with-text p {
   /* margin: 0; */
-  padding-right: 5px!important;
+  padding-right: 5px !important;
   color: #4d4c4c;
   /* line-height: inherit; */
 }
@@ -468,7 +480,7 @@ section {
 }
 
 .beautypress-section-headinig {
-  padding: 120px 0 80px 0;
+  padding: 0 0 3% 0;
   text-align: center;
 }
 
@@ -489,6 +501,17 @@ section {
   text-transform: capitalize;
   font-size: 2.757em;
   letter-spacing: -2px;
+}
+.section-headinig h3 {
+  margin: 0;
+  color: #8d8888;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 2.757em;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 .beautypress-border {
@@ -769,6 +792,9 @@ section {
 /*======================================================================================
 							 Our Service section start
 ===============================================================================*/
+#service .container-fluid {
+  width: 90%;
+}
 
 .beautypress-tab .beautypress-top-nav {
   border: 0;
@@ -880,7 +906,6 @@ section {
 .beautypress-tab .beautypress-top-nav li a:hover span {
   color: #666666;
 }
-
 .beautypress-tab .tab-content .tab-pane .tabbable {
   display: flex;
   width: 100%;
@@ -888,6 +913,7 @@ section {
 
 .beautypress-tab .tab-pane .tabbable .tab-content {
   width: calc(75% - 15px);
+  box-shadow: var(--hover-shadow);
 }
 
 .beautypress-tab .beautypress-side-nav {
@@ -898,6 +924,7 @@ section {
   display: block;
   width: calc(25% - 15px);
   margin: 0 30px 0 0;
+  height: fit-content;
 }
 
 .beautypress-tab .beautypress-side-nav li {
@@ -966,9 +993,6 @@ section {
   height: calc(100% + 10px);
 }
 
-
-
-
 .beautypress-tab-text-content {
   -ms-flex-item-align: center;
   padding: 0 47px 0 0;
@@ -978,13 +1002,13 @@ section {
 
 .beautypress-tab .beautypress-tab-content {
   background-color: var(--color-white);
-  box-shadow: var(--hover-shadow);
+  /* box-shadow: var(--hover-shadow); */
   height: 100%;
 }
 
 .beautypress-tab .beautypress-tab-image {
   position: relative;
-  width: calc(44.444444% - 15px);
+  width: calc(50.444444% - 15px);
   /* margin: 0 30px 0 0; */
   margin: 30px;
 }
@@ -1000,7 +1024,7 @@ section {
 }
 
 .beautypress-tab .beautypress-tab-text-content h3 {
-  margin: 10px 0 30px;
+  /* margin: 10px 0 30px; */
   /* color: #636262; */
   color: #f195bd;
   font-weight: 500;
@@ -1071,9 +1095,69 @@ section {
   width: 25% !important;
   margin-bottom: 5% !important;
 }
+.service-icon2 {
+  height: 80px !important;
+  width: 80px !important;
+  /* margin-bottom: 5% !important; */
+}
 
 /*======================================================================================
 							 Our Service section end
+===============================================================================*/
+/*======================================================================================
+							 Offer Service section start
+===============================================================================*/
+.offer-Package-student {
+  /* background-color: #ec79a7; */
+  background-image: url(../image/background/back.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: 1;
+  padding-bottom: 3%;
+}
+.offer-Package-bundle {
+  background-image: url(../image/background/back-1.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: 1;
+  padding-bottom: 3%;
+}
+.offer-Package-facial {
+  background-image: url(../image/background/off.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: 1;
+  padding-bottom: 4%;
+      margin: 9% auto;
+      
+}
+.offer-Package-pamper {
+  background-image: url(../image/background/lAV.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: 1;
+  padding-bottom: 3%;
+}
+
+.offer-card-design .card {
+  width: 20%;
+  height: 15rem;
+}
+
+/*======================================================================================
+							 Offer Service section end
 ===============================================================================*/
 
 /*===================================================
@@ -1098,7 +1182,7 @@ section {
 
 .beautypress-call-to-action-content {
   text-align: center;
-  padding: 200px 0;
+  padding: 150px 0;
 }
 
 .beautypress-content-headinig h2 {
@@ -1233,11 +1317,9 @@ section {
   background-color: #e4405f !important;
 }
 
-.beautypress-padding-bottom {
+/* .beautypress-padding-bottom {
   padding: 0 0 120px;
-}
-
-
+} */
 
 .beautypress-single-team .beautypress-social-list li a:hover {
   background-color: #5b5757 !important;
@@ -1466,13 +1548,12 @@ section {
   z-index: 1;
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
   /* margin: 0 0 40px; */
-  
 }
 
 .footer-logo {
   text-align: center;
   /* padding-top: 50px; */
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .footer-logo img {
@@ -1487,7 +1568,7 @@ section {
 .subscribe-wraper {
   /* width: 50%; */
   margin: 0 auto 50px auto;
-  width:100%!important;
+  width: 100% !important;
 
   text-align: center;
 }
@@ -1515,7 +1596,7 @@ section {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  height:45px;
+  height: 45px;
   border: 0;
   border-radius: 40px;
   background-color: #df6c9a;
@@ -1564,20 +1645,24 @@ section {
 .copyright-text p {
   color: #ffffff;
   font-size: 1.13em;
+  padding-bottom: 1% !important;
   margin-bottom: 0 !important;
 }
+.copyright-text p a {
+  color: #000080;
+  z-index: 5;
+}
 
-
-.arrow-indicator{
+.arrow-indicator {
   position: fixed;
- right: 10px;
+  right: 10px;
   bottom: 5%;
   z-index: 10;
   /* float:right */
 }
 
 .arrow-indicator a {
-  margin-top: 5%!important;
+  margin-top: 5% !important;
   border-radius: 50%;
   background-color: rgb(245, 107, 82);
   padding: 18px 11px 8px 11px;
@@ -1598,11 +1683,11 @@ section {
   .modal-btn {
     display: none;
   }
-  .side-menu{
-display: none;
+  .side-menu {
+    display: none;
   }
-  .open{
-    display: none!important;
+  .open {
+    display: none !important;
   }
 
   .footer-logo img {
@@ -1610,17 +1695,27 @@ display: none;
     width: 18% !important;
   }
   .beautypress-tab .beautypress-spilit-container {
-  display: flex;
-  height: 100%;
+    display: flex;
+    height: 100%;
+  }
 }
+/* @media screen and (min-width: 591px) and (max-width: 768px){
+  .beautypress-tab .beautypress-side-nav li a {
+    font-size: 0.9em;
+}
+} */
+@media (min-width: 768px) and (max-width: 991px) {
+  .offer-card-design .card {
+    /* width: 20%; */
+    height: 12rem !important;
+  }
 }
 
 @media screen and (max-width: 492px) {
- 
   /* header */
-  .nav-modal-style{
-   max-width:60%;
-}
+  .nav-modal-style {
+    max-width: 60%;
+  }
   .header-nav img {
     height: 40px;
     width: 100px;
@@ -1677,8 +1772,8 @@ display: none;
 
   /* appointment form */
   .beautypress-booking-text {
-  padding-right:10px!important;
-}
+    padding-right: 10px !important;
+  }
 
   .beautypress-booking-text h3 {
     /* margin: 0 0 40px; */
@@ -1706,20 +1801,16 @@ display: none;
     padding: 0 8px 0 5px;
   }
 
-  
   .beautypress-tab .beautypress-side-nav li a {
-  display: block;
-  width: 100%;
-  text-transform: capitalize;
-  font-size: 0.85em !important;
-  text-decoration: none;
-  position: relative;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  padding: 0 18x 10px 0 !important;
-}
-
-
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding: 0 18x 10px 0 !important;
+  }
 
   /* **************** */
   /* Retreat section */
@@ -1734,11 +1825,10 @@ display: none;
   /* footer */
   .footer-logo img {
     margin-top: 20% !important;
-    width: 100%!important;
+    width: 100% !important;
   }
   .subscribe {
-  width: 90%;
-  
+    width: 90%;
   }
 
   .subscribe-wraper h3 {
@@ -1757,53 +1847,105 @@ display: none;
 
   .subscribe-wraper input[type="submit"] {
     position: absolute;
-    right: 8px;
-    top: 38%;
-    height: 38px;
+    right: 3px;
+    top: 42%;
+    height: 43px;
     width: 100px !important;
     font-size: 12px !important;
     border-radius: 20px;
     /* padding: 0 10px; */
   }
   .subscribe-wraper {
-  margin: 0 auto 20px auto;
+    margin: 0 auto 20px auto;
   }
-  .copyright-content{
+  .copyright-content {
     border-top: 2px solid rgb(110, 105, 105);
-    /* width: auto ; */
-    margin:2% 5% auto 5%!important;
+    margin: 2% 5% auto 5% !important;
   }
-  
-  .copyright-text{
-    
-    margin-top: 5%!important;
+
+  .copyright-text {
+    margin-top: 5% !important;
+  }
+  .beautypress-booking-text-wraper .beautypress-border.beautypress-version-3 {
+    width: calc(100% - 100px);
+  }
+
+ .beautypress-tab .beautypress-side-nav {
+    padding: 30px 0px 30px 0;
+    width: calc(38% - 5px);
+    height: fit-content;
+    box-shadow: none;
+}
+}
+/* @media screen and (max-width:500px) {
+   .beautypress-tab .beautypress-side-nav li a {
+    font-size: 0.7em!important;
+  }
+} */
+@media screen and (max-width: 550px) {
+  .offer-card-design .card {
+    width: 24% !important;
+    height: 8rem !important;
   }
 }
-
+@media screen and (max-width: 590px) {
+  .section-headinig h3 {
+    text-transform: uppercase;
+    font-size: 1.7em !important;
+  }
+  .beautypress-bg {
+    margin-top: 12%;
+    margin-bottom: 11%;
+  }
+  .beautypress-section-headinig h2 {
+    margin: 0 0 -1px;
+    font-size: 2.4em;
+  }
+  .beautypress-booking-text {
+    padding: 55px 0 55px 25px;
+  }
+  .beautypress-tab .beautypress-side-nav li a {
+    font-size: 0.6em!important;
+  }
+  .beautypress-tab .beautypress-tab-text-content ul li {
+    font-size: 0.5em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .beautypress-tab .beautypress-side-nav li a {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 776px) {
+  #service .container-fluid {
+    width: 98%;
+    padding-left: 0;
+    padding-right: 1%;
+  }
+}
 @media screen and (max-width: 992px) {
-  .side-menu ul{
+  .side-menu ul {
     border: 4px dotted gray;
   }
-  .side-menu li a{
+  .side-menu li a {
     text-decoration: none;
     color: #e88162;
-    font-size: .8em!important;
-    font-weight: 500!important;
+    font-size: 0.8em !important;
+    font-weight: 500 !important;
     padding: 0 18x 10px 0 !important;
-    /* padding-bottom: 3px!important; */
   }
-  .side-menu li a:hover{
+  .side-menu li a:hover {
     color: #dd633e;
-    font-size: .9em!important;
-    font-weight: 500!important;
+    font-size: 0.9em !important;
+    font-weight: 500 !important;
   }
   /* logo */
   .header-nav img {
     height: 50px;
     width: 100px;
   }
-  .close{
-    display: none!important;
+  .close {
+    display: none !important;
   }
 
   /* carosal */
@@ -1847,7 +1989,6 @@ display: none;
   .left-side-caption p {
     font-size: 12px;
   }
-
   .xs-btn {
     font-size: 12px;
     font-style: italic;
@@ -1856,33 +1997,32 @@ display: none;
   }
 
   /* secret of beauty */
-  .beautypress-simple-text.beautypress-version-2 .beautypress-big-sub-heading h2 {
+  .beautypress-simple-text.beautypress-version-2
+    .beautypress-big-sub-heading
+    h2 {
     padding-top: 40px !important;
     text-align: center;
   }
-  .beautypress-simple-text.beautypress-version-2 .beautypress-big-sub-heading h3 {
+  .beautypress-simple-text.beautypress-version-2
+    .beautypress-big-sub-heading
+    h3 {
     /* padding-top: 40px!important; */
     text-align: center;
   }
- .secret-lavish-img{
- display: block!important;
-  margin: auto!important;
- }
-.secret-lavish-img img{
-  /* margin-left: 40px; */
-  height: 300px !important;
-  width: 320px !important;
- 
-}
-
-
+  .secret-lavish-img {
+    display: block !important;
+    margin: auto !important;
+  }
+  .secret-lavish-img img {
+    /* margin-left: 40px; */
+    height: 300px !important;
+    width: 320px !important;
+  }
 
   /* Retreat section */
 
   .beautypress-content-headinig h2 {
-    /* margin: 0 0 20px; */
     font-weight: 800 !important;
-
     font-size: 2.5em;
   }
 
@@ -1914,18 +2054,16 @@ display: none;
     color: rgb(239, 107, 107) !important;
     padding: 0 8px 0 5px;
   }
-  
-  .beautypress-tab .beautypress-side-nav{
-    display:none;
-  }
 
- 
+  /* .beautypress-tab .beautypress-side-nav {
+    display: none;
+  } */
 
   .beautypress-tab .beautypress-tab-text-content h3 {
     color: #f195bd;
     font-weight: 300 !important;
     font-size: 1.5em !important;
-    padding-top: 20px !important;
+    /* padding-top: 20px !important; */
   }
   .beautypress-tab .beautypress-tab-text-content p {
     color: #96878e;
@@ -1934,7 +2072,7 @@ display: none;
   }
   .beautypress-tab .beautypress-tab-text-content ul li {
     color: #96878e;
-    font-size: 0.78em !important;
+    font-size: 0.7em ;
     padding-top: 0 !important;
   }
   .beautypress-tab .beautypress-tab-text-content ul li span {
@@ -1965,15 +2103,29 @@ display: none;
     font-weight: 400;
     font-size: 1.3em;
   }
-  .copyright-text{
-    margin-top: 3%!important;
+  .copyright-text {
+    margin-top: 3% !important;
   }
-  
-  /* .subscribe {
-    height: 70px!important;
-    padding: 5% auto!important;
-    
-  } */
+
+  .offer-card-design .card {
+    width: 20%;
+    height: 10rem;
+  }
+  .beautypress-tab .beautypress-side-nav {
+    padding: 30px 0px 30px 0;
+    width: calc(44% - 5px);
+    height: fit-content;
+  }
+  .beautypress-tab-text-content {
+    -ms-flex-item-align: center;
+    padding: 0px 5% 0;
+    width: 100%;
+  }
+  .beautypress-tab .beautypress-tab-image {
+    position: relative;
+    width: fit-content;
+    margin: 20px;
+  }
 }
 /* @media  screen and (max-width:1200) {
     .beautypress-tab .beautypress-top-nav li a span {
@@ -1981,4 +2133,10 @@ display: none;
   font-weight: 500;
   
 }
+} */
+/* @media screen and (max-width: 992px){
+
+.beautypress-tab .beautypress-side-nav {
+    display: none;
+  }
 } */
